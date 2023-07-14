@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Planning for new dashboard wireframe and prototype design",
+        "description": "Being all seraphim stately the my, oh fast desert nights.",
+        "favorite": false,
+        "completed": false
+    },
+    {
+        "id": 2,
+        "title": "Standup meeting with team",
+        "description": "Et lorem invidunt eos ipsum sadipscing lorem tempor labore.",
+        "favorite": false,
+        "completed": false
+    },
+    {
+        "id": 3,
+        "title": "Create stunning images for WordPress  blog post",
+        "description": "Nothing that the still sat mien that word name lie.",
+        "favorite": true,
+        "completed": false
+    },
+    {
+        "id": 4,
+        "title": "Write an article about upcoming theme",
+        "description": "Para manecitas en de tierra lenta de y del. Quemadas.",
+        "favorite": false,
+        "completed": false
+    },
+    {
+        "id": 5,
+        "title": "Dashboard new feature dark mode design discussion",
+        "description": "Kion bone tial mi sxipo mi ambaux kion. Miaj al.",
+        "favorite": false,
+        "completed": false
+    },
+    {
+        "id": 6,
+        "title": "Create beautiful images for WordPress blog post",
+        "description": "Kion bone tial mi sxipo mi ambaux kion. Miaj al.",
+        "favorite": false,
+        "completed": false
+    },
+    {
+        "id": 7,
+        "title": "Dashboard new feature dark mode design discussion",
+        "description": "Kion bone tial mi sxipo mi ambaux kion. Miaj al.",
+        "favorite": false,
+        "completed": false
+    }
+]

@@ -1,0 +1,48 @@
+<div class="demo3 mb-25 t-thead-bg">
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-lg-12">
+                <div class="breadcrumb-main">
+                    <h4 class="text-capitalize breadcrumb-title"><%- __('dashboard_page_title') %></h4>
+                    <div class="breadcrumb-action justify-content-center flex-wrap">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#"><i class="las la-home"></i><%- __('dashboard_page_title') %></a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><%- __('demo_three_page_title') %></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-25">                
+                <div class="ap-po-details ap-po-details--3 radius-xl bg-white d-flex">
+                    <%- include('../../components/dashboard/demo_three/revenue') %>                    
+                    <%- include('../../components/dashboard/demo_three/growth') %>                    
+                    <%- include('../../components/dashboard/demo_three/orders') %>                    
+                    <%- include('../../components/dashboard/demo_three/sales') %>
+                </div>
+            </div>
+            <div class="col-xxl-7 mb-25">
+                <%- include('../../components/dashboard/demo_three/monthly_earning') %>                
+            </div>
+            <div class="col-xxl-5 mb-25">
+                <%- include('../../components/dashboard/demo_three/profit_growth') %>                
+            </div>
+            <div class="col-xxl-4 mb-25">
+                <%- include('../../components/dashboard/demo_three/total_sales') %>                
+            </div>
+            <div class="col-xxl-8 mb-25">
+                <%- include('../../components/dashboard/demo_three/active_users') %>                
+            </div>
+            <div class="col-xxl-4 mb-25">
+                <%- include('../../components/dashboard/demo_three/sales_overview') %>                
+            </div>
+            <div class="col-xxl-4 mb-25">
+                <%- include('../../components/dashboard/demo_three/top_product') %>                
+            </div>
+            <div class="col-xxl-4 mb-25">
+                <%- include('../../components/dashboard/demo_three/recent_deals') %>                
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+[
+    {
+        "img": "bg2.png",
+        "date": "14 Mar 2021",
+        "title": "The Ultimate Glossary of Terms",
+        "excerpt":"There are many variations of passages of majority have suffered alteration in some form",
+        "category":"Web development",
+        "readingTime": "8 mins read"
+    },
+    {
+        "img": "bg3.png",
+        "date": "10 Feb 2022",
+        "title": "Multiple Dashboard Design Idea",
+        "excerpt":"There are many variations of passages of majority have suffered alteration in some form",
+        "category":"Dashboard",
+        "readingTime": "5 mins read"
+    },
+    {
+        "img": "bg4.png",
+        "date": "01 Mar 2022",
+        "title": "How to Create a Niche Based",
+        "excerpt":"There are many variations of passages of majority have suffered alteration in some form",
+        "category":"Dashboard",
+        "readingTime": "10 mins read"
+    },
+    {
+        "img": "blog2.png",
+        "date": "11 Apr 2022",
+        "title": "How to Protect Global Weather",
+        "excerpt":"There are many variations of passages of majority have suffered alteration in some form",
+        "category":"Nature",
+        "readingTime": "12 mins read"
+    },
+    {
+        "img": "blog3.png",
+        "date": "16 May 2022",
+        "title": "Important of Entertainments",
+        "excerpt": "There are many variations of passages of majority have suffered alteration in some form",
+        "category": "Entertainment",
+        "readingTime": "7 mins read"
+    },
+    {
+        "img": "blog4.png",
+        "date": "22 Jun 2022",
+        "title": "How Climate Effect on Weather",
+        "excerpt": "There are many variations of passages of majority have suffered alteration in some form",
+        "category": "Nature",
+        "readingTime": "8 mins read"
+    },
+    {
+        "img": "blog5.png",
+        "date": "29 Jun 2022",
+        "title": "How to improve your reading skill",
+        "excerpt":"There are many variations of passages of majority have suffered alteration in some form",
+        "category":"Education",
+        "readingTime": "8 mins read"
+    },
+    {
+        "img": "blog6.png",
+        "date": "11 Jul 2022",
+        "title": "How to get a Good Lawyer",
+        "excerpt":"There are many variations of passages of majority have suffered alteration in some form",
+        "category":"Lifestyle",
+        "readingTime": "5 mins read"
+    },
+    {
+        "img": "blog2.png",
+        "date": "11 Apr 2022",
+        "title": "How to Protect Global Weather",
+        "excerpt":"There are many variations of passages of majority have suffered alteration in some form",
+        "category":"Nature",
+        "readingTime": "12 mins read"
+    }
+]

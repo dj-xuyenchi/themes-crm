@@ -1,0 +1,140 @@
+<div nz-row [nzGutter]="25">
+  <ng-template #loadingSkeleton>
+    <nz-skeleton class="bg-white dark:bg-white/10 rounded-6 p-[30px] pt-[15px]" [nzShape]="circle" [nzActive]="true" [nzParagraph]="{ rows: 7 }"></nz-skeleton>
+  </ng-template>
+  <div nz-col nzXXl="19" nzMd="16" nzXs="24" class="mb-[25px]">
+    <ng-container *ngIf="showContent; else loadingSkeleton">
+      <div class="relative p-0 m-0 bg-white dark:bg-white/10 rounded-10">
+        <div
+          class="h-[60px] ssm:h-auto px-[25px] text-dark dark:text-white/[.87] font-medium text-[17px] border-regular dark:border-white/10 border-b">
+          <h1 class="mb-0 inline-flex items-center flex-wrap py-[16px] text-[18px] font-semibold gap-[15px]">
+            <span class="text-lg font-medium text-dark dark:text-white/[.87]">
+              Version {{ versions[0].version }}
+            </span>
+            <span class="mx-2 text-lg font-medium text-dark dark:text-white/[.87]">-</span>
+            <span class="text-[#868eae] dark:text-white/60 text-base font-normal">{{ versions[0].date }}</span>
+          </h1>
+        </div>
+        <div class="p-[25px]">
+          <ng-container *ngIf="versions[0].new">
+            <div class="mb-[30px]">
+              <span
+                class="inline-block bg-success mb-4 px-2 py-[5px] text-white dark:text-white/[.87] text-xs font-medium leading-4 tracking-[1.4px] rounded">
+                New
+              </span>
+              <ul class="mb-0">
+                <li *ngFor="let item of versions[0].new; let key = index"
+                  class="relative ltr:pl-5 rtl:pr-5 text-body dark:text-white/60 text-base after:absolute ltr:after:left-0 rtl:after:right-0 after:top-1/2 after:-translate-y-1/2 after:w-1.5 after:h-1.5 after:bg-success after:rounded-full">
+                  {{ item }}
+                </li>
+              </ul>
+            </div>
+          </ng-container>
+          <ng-container *ngIf="versions[0].fixed">
+            <div class="mb-[30px]">
+              <span
+                class="inline-block bg-info mb-4 px-2 py-[5px] text-white dark:text-white/[.87] text-xs font-medium leading-4 tracking-[1.4px] rounded">
+                Fixed
+              </span>
+              <ul class="mb-0">
+                <li *ngFor="let item of versions[0].fixed; let key = index"
+                  class="relative ltr:pl-5 rtl:pr-5 text-body dark:text-white/60 text-base after:absolute ltr:after:left-0 rtl:after:right-0 after:top-1/2 after:-translate-y-1/2 after:w-1.5 after:h-1.5 after:bg-info after:rounded-full">
+                  {{ item }}
+                </li>
+              </ul>
+            </div>
+          </ng-container>
+          <ng-container *ngIf="versions[0].updated">
+            <div class="mb-[30px]">
+              <span
+                class="inline-block bg-secondary mb-4 px-2 py-[5px] text-white dark:text-white/[.87] text-xs font-medium leading-4 tracking-[1.4px] rounded">
+                Updated
+              </span>
+              <ul class="mb-0">
+                <li *ngFor="let item of versions[0].updated; let key = index"
+                  class="relative ltr:pl-5 rtl:pr-5 text-body dark:text-white/60 text-base after:absolute ltr:after:left-0 rtl:after:right-0 after:top-1/2 after:-translate-y-1/2 after:w-1.5 after:h-1.5 after:bg-primary after:rounded-full">
+                  {{ item }}
+                </li>
+              </ul>
+            </div>
+          </ng-container>
+          <nz-collapse nzAccordion class="changelog-accordion bg-transparent mt-[30px] mb-[20px] border-none">
+            <nz-collapse-panel *ngFor="let version of versions; let index = index"
+              [nzHeader]="version.version + ' - ' + version.date"
+              class="border-regular border-1 dark:border-white/10 rounded-6 dark:bg-white/10 first:hidden first:mb-0 mb-[15px]">
+              <div>
+                <ng-container *ngIf="version.new">
+                  <div>
+                    <span
+                      class="inline-block bg-success mb-4 px-2 py-[5px] text-white dark:text-white/[.87] text-xs font-medium leading-4 tracking-[1.4px] rounded">
+                      New
+                    </span>
+                    <ul>
+                      <li *ngFor="let item of version.new; let key = index"
+                        class="relative ltr:pl-5 rtl:pr-5 text-body dark:text-white/60 text-base after:absolute ltr:after:left-0 rtl:after:right-0 after:top-1/2 after:-translate-y-1/2 after:w-1.5 after:h-1.5 after:bg-success after:rounded-full">
+                        {{ item }}
+                      </li>
+                    </ul>
+                  </div>
+                </ng-container>
+                <ng-container *ngIf="version.fixed">
+                  <div class="mt-[30px]">
+                    <span
+                      class="inline-block bg-info mb-4 px-2 py-[5px] text-white dark:text-white/[.87] text-xs font-medium leading-4 tracking-[1.4px] rounded">
+                      Fixed
+                    </span>
+                    <ul>
+                      <li *ngFor="let item of version.fixed; let key = index"
+                        class="relative ltr:pl-5 rtl:pr-5 text-body dark:text-white/60 text-base after:absolute ltr:after:left-0 rtl:after:right-0 after:top-1/2 after:-translate-y-1/2 after:w-1.5 after:h-1.5 after:bg-info after:rounded-full">
+                        {{ item }}
+                      </li>
+                    </ul>
+                  </div>
+                </ng-container>
+                <ng-container *ngIf="version.updated">
+                  <div>
+                    <span
+                      class="inline-block bg-secondary mb-4 px-2 py-[5px] text-white dark:text-white/[.87] text-xs font-medium leading-4 tracking-[1.4px] rounded">
+                      Updated
+                    </span>
+                    <ul>
+                      <li *ngFor="let item of version.updated; let key = index"
+                        class="relative ltr:pl-5 rtl:pr-5 text-body dark:text-white/60 text-base after:absolute ltr:after:left-0 rtl:after:right-0 after:top-1/2 after:-translate-y-1/2 after:w-1.5 after:h-1.5 after:bg-primary after:rounded-full">
+                        {{ item }}
+                      </li>
+                    </ul>
+                  </div>
+                </ng-container>
+              </div>
+            </nz-collapse-panel>
+          </nz-collapse>
+
+        </div>
+      </div>
+    </ng-container>
+  </div>
+  <div nz-col nzXXl="5" nzMd="8" nzXs="24" class="mb-[25px]">
+    <ng-container *ngIf="showContent; else loadingSkeleton">
+      <div class="bg-white dark:bg-white/10 m-0 p-0 text-theme-gray dark:text-white/60 text-[15px] rounded-10 relative">
+        <div class="h-[60px] px-[25px] text-dark dark:text-white/[.87] font-medium text-[17px] border-regular dark:border-white/10 border-b">
+          <h1 class="mb-0 inline-block py-[16px] overflow-hidden whitespace-nowrap text-ellipsis text-[18px] font-semibold dark:text-white/[.87]">
+            Changelog
+          </h1>
+        </div>
+        <div class="p-[25px]">
+          <h4 class="mb-6 text-dark dark:text-white/[.87] text-[11px] font-medium uppercase">
+            VERSION HISTORY
+          </h4>
+          <ul class="mb-0">
+            <li *ngFor="let version of versions" class="flex justify-between mb-6 last:mb-0" [class.last]="last">
+              <span class="text-sm font-medium text-dark dark:text-white/[.87]">
+                Version {{ version.version }}
+              </span>
+              <span class="text-sm text-body dark:text-white/60">{{ version.date }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

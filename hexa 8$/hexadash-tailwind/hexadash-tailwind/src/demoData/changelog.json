@@ -1,0 +1,16 @@
+[
+  
+  {
+    "id": 2,
+    "date": "April 02, 2023",
+    "version": "1.0.1",
+    "new": ["2 Demo page added, 4 More wizards pages, 5 Application"],
+    "fixed": ["Fixed CSS & JS issues"]
+  },
+  {
+    "id": 1,
+    "date": "March 08, 2023",
+    "version": "1.0.0",
+    "new": ["Initialize Release"]
+  }
+]

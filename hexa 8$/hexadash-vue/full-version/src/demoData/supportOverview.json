@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "type": "primary",
+        "icon": "ticket",
+        "label": "Total Tickets",
+        "total": "30825",
+        "suffix": "",
+        "prefix": ""
+    },
+    {
+        "id": 3,
+        "type": "warning",
+        "icon": "exclamation-octagon",
+        "label": "Open Issues",
+        "total": "350",
+        "suffix": "",
+        "prefix": ""
+    },
+    {
+        "id": 4,
+        "type": "secondary",
+        "icon": "times-circle",
+        "label": "Closed Issues",
+        "total": "30825",
+        "suffix": "",
+        "prefix": ""
+    },
+    {
+        "id": 2,
+        "type": "success",
+        "icon": "check-circle",
+        "label": "Total Resolved",
+        "total": "825",
+        "suffix": "",
+        "prefix": ""
+    }
+]

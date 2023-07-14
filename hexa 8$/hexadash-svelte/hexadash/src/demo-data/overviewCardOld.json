@@ -1,0 +1,90 @@
+[
+    {
+        "type": "primary",
+        "icon": "arrow-growth",
+        "total": "100",
+        "suffix": "+",
+        "prefix": "",
+        "label": "Total Products",
+        "growth": "upward",
+        "growthRate": "25.36",
+        "dataPeriod": "Since Last Month"
+    },
+    {
+        "type": "secondary",
+        "icon": "users-alt",
+        "total": "30,825",
+        "suffix": "",
+        "prefix": "",
+        "label": "Total Orders",
+        "growth": "upward",
+        "growthRate": "9.87",
+        "dataPeriod": "Since Last Month"
+    },
+    {
+        "type": "success",
+        "icon": "usd-circle",
+        "total": "30,825",
+        "suffix": "",
+        "prefix": "$",
+        "label": "Total Sales",
+        "growth": "Sales",
+        "growthRate": "12.36",
+        "dataPeriod": "Since Last Month"
+    },
+    {
+        "type": "infos",
+        "icon": "tachometer-fast",
+        "total": "30,825",
+        "suffix": "",
+        "prefix": "",
+        "label": "New Customer",
+        "growth": "upward",
+        "growthRate": "25.36",
+        "dataPeriod": "Since Last Month"
+    },
+    {
+        "type": "primary",
+        "icon": "notes.svg",
+        "total": "70",
+        "suffix": "K",
+        "prefix": "$",
+        "label": "Revenue",
+        "growth": "upward",
+        "growthRate": "25.36",
+        "dataPeriod": "Since Last Month"
+    },
+    {
+        "type": "secondary",
+        "icon": "arrow-growth.svg",
+        "total": "28.50",
+        "suffix": "%",
+        "prefix": "",
+        "label": "Growth",
+        "growth": "upward",
+        "growthRate": "15.37",
+        "dataPeriod": "Since Last Month"
+    },
+    {
+        "type": "success",
+        "icon": "cart.svg",
+        "total": "8,457",
+        "suffix": "",
+        "prefix": "",
+        "label": "Orders",
+        "growth": "upward",
+        "growthRate": "45.01",
+        "dataPeriod": "Since Last Month"
+    },
+    {
+        "type": "warning",
+        "icon": "usd-circle.svg",
+        "total": "40",
+        "suffix": "K",
+        "prefix": "$",
+        "label": "Sales",
+        "growth": "downward",
+        "growthRate": "18.54",
+        "dataPeriod": "Since Last Month"
+    }
+  ]

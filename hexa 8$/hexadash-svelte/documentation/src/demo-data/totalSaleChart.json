@@ -1,0 +1,9 @@
+{
+    "title": "Sales Report",
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    "orders": [10, 55, 42, 30, 42, 80, 35, 10, 53, 62, 45, 78],
+    "sales": [30, 45, 35, 10, 5, 60, 8, 42, 30, 70, 54, 25],
+    "total": "8,550",
+    "growthRate": "25.36",
+    "growthStatus": "down"
+}

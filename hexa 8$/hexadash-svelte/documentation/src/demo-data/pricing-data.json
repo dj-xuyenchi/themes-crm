@@ -1,0 +1,138 @@
+[
+    {
+        "priceTag": "Free Forever",
+        "priceTagBg": "dark",
+        "priceValue": "Free",
+        "pricePrefix": "",
+        "priceSuffix": "",
+        "priceTagline": "For Individuals",
+        "featureList": [
+            {
+                "icon": "check",
+                "content": "100MB File size"
+            },
+            {
+                "icon": "check",
+                "content": "2 Active Projects"
+            },
+            {
+                "icon": "check",
+                "content": "Limited Boards"
+            },
+            {
+                "icon": "check",
+                "content": "Basic Project Management"
+            }
+        ],
+        "priceBtnType": "light",
+        "priceBtnContent": "Current Plan",
+        "btnOutlined": true
+    },
+    {
+        "priceTag": "Basic Plan",
+        "priceTagBg": "primary",
+        "priceValue": "19",
+        "pricePrefix": "$",
+        "priceSuffix": "Per Month",
+        "priceTagline": "For 2 Users",
+        "featureList": [
+            {
+                "icon": "check",
+                "content": "100GB File size"
+            },
+            {
+                "icon": "check",
+                "content": "300 Active Projects"
+            },
+            {
+                "icon": "check",
+                "content": "Limited Boards"
+            },
+            {
+                "icon": "check",
+                "content": "Basic Project Management"
+            },
+            {
+                "icon": "check",
+                "content": "Custom Post Types"
+            }
+        ],
+        "priceBtnType": "primary",
+        "priceBtnContent": "Get Started",
+        "btnOutlined": false
+    },
+    {
+        "priceTag": "Business",
+        "priceTagBg": "secondary",
+        "priceValue": "39",
+        "pricePrefix": "$",
+        "priceSuffix": "Per Month",
+        "priceTagline": "For 10 Users",
+        "featureList": [
+            {
+                "icon": "check",
+                "content": "500GB File size"
+            },
+            {
+                "icon": "check",
+                "content": "500 Active Projects"
+            },
+            {
+                "icon": "check",
+                "content": "Limited Boards"
+            },
+            {
+                "icon": "check",
+                "content": "Basic Project Management"
+            },
+            {
+                "icon": "check",
+                "content": "Custom Post Types"
+            },
+            {
+                "icon": "check",
+                "content": "Subtasks"
+            }
+        ],
+        "priceBtnType": "secondary",
+        "priceBtnContent": "Get Started",
+        "btnOutlined": false
+    },
+    {
+        "priceTag": "Enterprise",
+        "priceTagBg": "success",
+        "priceValue": "79",
+        "pricePrefix": "$",
+        "priceSuffix": "Per Month",
+        "priceTagline": "For 50 Users",
+        "featureList": [
+            {
+                "icon": "check",
+                "content": "750GB File size"
+            },
+            {
+                "icon": "check",
+                "content": "800 Active Projects"
+            },
+            {
+                "icon": "check",
+                "content": "Unlimited Boards"
+            },
+            {
+                "icon": "check",
+                "content": "Basic Project Management"
+            },
+            {
+                "icon": "check",
+                "content": "Custom Post Types"
+            },
+            {
+                "icon": "check",
+                "content": "Subtasks"
+            }
+        ],
+        "priceBtnType": "success",
+        "priceBtnContent": "Get Started",
+        "btnOutlined": false
+    }
+]

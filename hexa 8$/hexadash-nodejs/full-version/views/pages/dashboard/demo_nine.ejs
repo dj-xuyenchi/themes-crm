@@ -1,0 +1,118 @@
+<div class="demo4">
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-lg-12">
+                <div class="breadcrumb-main">
+                    <h4 class="text-capitalize breadcrumb-title"><%- __('dashboard_page_title') %></h4>
+                    <div class="breadcrumb-action justify-content-center flex-wrap">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#"><i class="las la-home"></i><%- __('dashboard_page_title') %></a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><%- __('demo_four_page_title') %></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-lg-6 mb-25">
+                <div class="card banner-feature banner-feature--5 mb-0">
+                    <div class="banner-feature__shape">
+                        <img src="<%- locals.base %>img/svg/group3320.svg" alt="img" class="svg">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="card-body">
+                            <h1 class="banner-feature__heading color-white">Congratulations Jhon!</h1>
+                            <p class="banner-feature__para ">Best Seller on the last month.</p>
+                            <button class="banner-feature__btn btn color-secondary btn-md px-20 bg-white radius-xs fs-15" type="button">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-lg-6 mb-25">
+                <%- include('../../components/dashboard/demo_four/performance_overview') %>                
+            </div>
+            <div class="col-xxl-4 col-xl-6 col-lg-12 mb-25">
+                <div class="row">
+                    <div class="col-md-6">
+                        <%- include('../../components/dashboard/demo_four/total_products') %>                        
+                    </div>
+                    <div class="col-md-6">
+                        <%- include('../../components/dashboard/demo_four/total_awards') %>                        
+                    </div>
+                    <div class="col-12 mt-25">
+                        <div class="card banner-feature banner-feature--7 border-0 mb-0">
+                            <div class="d-flex justify-content-center">
+                                <div class="card-body py-30 px-30">
+                                    <div class="banner-feature__shape me-20">
+                                        <img src="<%- locals.base %>img/svg/message2.svg" alt="img" class="svg">
+                                    </div>
+                                    <div class="div">
+                                        <h2 class="banner-feature__heading">Subscribe to our newsletter</h2>
+                                        <p class="banner-feature__para ">Lorem ipsum dolor sit amet, consetetur</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-8 col-lg-6 mb-25">
+                <%- include('../../components/dashboard/demo_four/task_list') %>                
+            </div>
+            <div class="col-xxl-4 col-lg-6 mb-25">
+                <%- include('../../components/dashboard/demo_four/marketing_campaigns') %>                
+            </div>
+            <div class="col-xxl-4 col-lg-6 mb-25">
+                <%- include('../../components/dashboard/demo_four/todo') %>                
+            </div>
+            <div class="col-xxl-4 col-lg-6 mb-25">
+                <%- include('../../components/dashboard/demo_four/team_members') %>                
+            </div>
+            <div class="col-xxl-4 col-xl-6 mb-25">
+                <div class="feature-profile">
+                    <div class="feature-profile__bg">
+                        <img src="<%- locals.base %>img/profile_bg.png" alt="">
+                    </div>
+                    <div class="feature-profile_content">
+                        <img src="<%- locals.base %>img/profile_bg_2.png" alt="">
+                        <h6>Robert Clinton</h6>
+                        <p>Best Seller of the last month</p>
+                        <ul class="profile-feature__social">
+                            <li>
+                                <a href="#" class="bg-facebook">
+                                    <img src="<%- locals.base %>img/svg/facebook.svg" alt="facebook" class="svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="bg-twitter">
+                                    <img src="<%- locals.base %>img/svg/twitter.svg" alt="twitter" class="svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="bg-instagram">
+                                    <img src="<%- locals.base %>img/svg/instagram.svg" alt="instagram" class="svg">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 mb-25">
+                <%- include('../../components/dashboard/demo_four/chat') %>                
+            </div>
+            <div class="col-xxl-8 mb-25">
+                <div class="row">
+                    <div class="col-xxl-6 mb-25">
+                        <%- include('../../components/dashboard/demo_four/social_media_traffic') %>                        
+                    </div>
+                    <div class="col-xxl-6 mb-25">
+                        <%- include('../../components/dashboard/demo_four/location') %>                        
+                    </div>
+                    <div class="col-xxl-12 mb-25">
+                        <%- include('../../components/dashboard/demo_four/recent_sellers') %>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

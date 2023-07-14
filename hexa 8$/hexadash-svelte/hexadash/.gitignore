@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/static/css/bootstrap.min.css.map
+/package
+.env
+.env.*
+!.env.example
+.vercel

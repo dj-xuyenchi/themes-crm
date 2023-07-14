@@ -1,0 +1,120 @@
+[
+  {
+    "progress":[
+      {
+        "title": "Custom Software Project",
+        "status": "progress",
+        "content": "Lorem Ipsum Dolor Amet, Consetetur Sadipscing Elitr Sed Diam Nonumy Eirmod Dolor Ame.",
+        "category": "Web Development",
+        "badge": "warning",
+        "assignedTo": ["tm1.png", "tm2.png", "tm3.png"],
+        "percentage": 38
+      },
+      {
+        "title": "Develop Component Library",
+        "status": "progress",
+        "content": "Lorem Ipsum Dolor Amet, Consetetur Sadipscing Elitr Sed Diam Nonumy Eirmod Dolor Ame.",
+        "category": "Web Development",
+        "badge": "warning",
+        "assignedTo": ["tm4.png", "tm5.png", "tm6.png", "tm7.png", "tm8.png"],
+        "percentage": 96
+      },
+      {
+        "title": "R&D on Application UI/UX",
+        "status": "progress",
+        "content": "Lorem Ipsum Dolor Amet, Consetetur Sadipscing Elitr Sed Diam Nonumy Eirmod Dolor Ame.",
+        "category": "Web Development",
+        "badge": "warning",
+        "assignedTo": ["tm1.png", "tm6.png"],
+        "percentage": 42
+      },
+      {
+        "title": "Dashboard UI Project",
+        "status": "progress",
+        "content": "Lorem Ipsum Dolor Amet, Consetetur Sadipscing Elitr Sed Diam Nonumy Eirmod Dolor Ame.",
+        "category": "Web Development",
+        "badge": "warning",
+        "assignedTo": ["tm1.png", "tm2.png", "tm3.png", "tm4.png", "tm5.png"],
+        "percentage": 63
+      }
+    ],
+    "completed": [
+      {
+        "title": "Realtime Test API Develop",
+        "status": "completed",
+        "content": "Lorem Ipsum Dolor Amet, Consetetur Sadipscing Elitr Sed Diam Nonumy Eirmod Dolor Ame.",
+        "category": "Graphic Design",
+        "badge": "success",
+        "assignedTo": ["tm5.png", "tm6.png", "tm7.png", "tm8.png"],
+        "percentage": 73
+      },
+      {
+        "title": "Support Dashboard Task",
+        "status": "completed",
+        "content": "Lorem Ipsum Dolor Amet, Consetetur Sadipscing Elitr Sed Diam Nonumy Eirmod Dolor Ame.",
+        "category": "Graphic Design",
+        "badge": "success",
+        "assignedTo": ["tm1.png", "tm2.png"],
+        "percentage": 53
+      }
+    ],
+    "late": [
+      {
+        "title": "Develop Website Builder",
+        "status": "late",
+        "content": "Lorem Ipsum Dolor Amet, Consetetur Sadipscing Elitr Sed Diam Nonumy Eirmod Dolor Ame.",
+        "category": "Web Development",
+        "badge": "danger",
+        "assignedTo": ["tm1.png", "tm2.png", "tm7.png", "tm8.png"],
+        "percentage": 29
+      },
+      {
+        "title": "Create App for Client",
+        "status": "late",
+        "content": "Lorem Ipsum Dolor Amet, Consetetur Sadipscing Elitr Sed Diam Nonumy Eirmod Dolor Ame.",
+        "category": "Web Development",
+        "badge": "danger",
+        "assignedTo": ["tm1.png", "tm2.png", "tm3.png"],
+        "percentage": 82
+      }
+    ],
+    "early": [
+      {
+        "title": "Run Prmotion Campaign",
+        "status": "early",
+        "content": "Lorem Ipsum Dolor Amet, Consetetur Sadipscing Elitr Sed Diam Nonumy Eirmod Dolor Ame.",
+        "category": "Web Design",
+        "badge": "primary",
+        "assignedTo": ["tm1.png", "tm2.png", "tm3.png", "tm4.png"],
+        "percentage": 85
+      },
+      {
+        "title": "New Application Architechture",
+        "status": "early",
+        "content": "Lorem Ipsum Dolor Amet, Consetetur Sadipscing Elitr Sed Diam Nonumy Eirmod Dolor Ame.",
+        "category": "Graphic Design",
+        "badge": "primary",
+        "assignedTo": ["tm7.png", "tm8.png"],
+        "percentage": 46
+      },
+      {
+        "title": "Fix end-to-end Encryption",
+        "status": "early",
+        "content": "Lorem Ipsum Dolor Amet, Consetetur Sadipscing Elitr Sed Diam Nonumy Eirmod Dolor Ame.",
+        "category": "Graphic Design",
+        "badge": "primary",
+        "assignedTo": ["tm1.png", "tm2.png", "tm3.png"],
+        "percentage": 36
+      },
+      {
+        "title": "Thirdparty Plugin Development",
+        "status": "early",
+        "content": "Lorem Ipsum Dolor Amet, Consetetur Sadipscing Elitr Sed Diam Nonumy Eirmod Dolor Ame.",
+        "category": "Web Design",
+        "badge": "primary",
+        "assignedTo": ["tm1.png", "tm5.png", "tm6.png", "tm7.png", "tm8.png"],
+        "percentage": 33
+      }
+    ]
+  }
+]

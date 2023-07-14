@@ -1,0 +1,51 @@
+<div class="device-chart-box">
+    <div class="card border-0">
+        <div class="card-header border-0">
+            <h6>Performance Overview </h6>
+            <div class="card-extra">                
+                <div class="dropdown dropleft">
+                    <a href="#" role="button" id="revenue4" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="<%- locals.base %>img/svg/more-horizontal.svg" alt="more-horizontal" class="svg">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="revenue4">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-body card-body pt-25 pb-25">
+            <div class="device-pieChart-wrap position-relative">
+                <div class="pie-chart-legend">
+                    <p>
+                        <span>60%</span>Target
+                    </p>
+                </div>
+                <div>
+                    <canvas id="overviewChart"></canvas>
+                </div>
+            </div>
+            <div class="session-wrap session-wrap--top--5">
+                <div class="session-single">
+                    <div class="chart-label">
+                        <span class="label-dot dot-primary"></span>
+                        Target
+                    </div>
+                </div>
+                <div class="session-single">
+                    <div class="chart-label">
+                        <span class="label-dot dot-warning"></span>
+                        In Progress
+                    </div>
+                </div>
+                <div class="session-single">
+                    <div class="chart-label">
+                        <span class="label-dot dot-success"></span>
+                        Completed
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

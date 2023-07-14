@@ -1,0 +1,72 @@
+/* Important */
+.header {
+    .logo {
+        width: 280px;
+        display: flex;
+
+        @include screen-laptop-only {
+            width: 230px;
+        }
+
+        @include screen-tablet {
+            display: none;
+        }
+
+        .logo-fold {
+            display: none;
+        }
+
+        &.logo-white {
+            display: none;
+        }
+    }
+
+    .nav-wrap {
+
+        .desktop-toggle {
+            @include screen-tablet {
+                display: none;
+            }
+        }
+
+        .mobile-toggle {
+            @include screen-tablet-above {
+                display: none;
+            }
+        }
+    }
+
+    .ant-dropdown-link,
+    .ant-dropdown-trigger  {
+        .anticon:not(.anticon-ellipsis) {
+            font-size: 18px;
+            transform: none;
+        }
+    }
+
+    &.header-folded {
+
+        .logo {
+            width: 80px;
+        }
+    }
+}
+
+.is-folded {
+    @include screen-tablet-above {
+        .header {
+
+            .logo {
+                width: 80px;
+
+                img {
+                    display: none;
+                }
+
+                .logo-fold {
+                    display: block;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "img": "/img/job/stats.png",
+      "name": "WordPress Plugins Developer",
+      "subName": "New York,USA",
+      "deadline": "31 May 2021",
+      "jobTime": "full time",
+      "salary": "$ 1000 - $ 2000 per month"
+    },
+    {
+      "id": 2,
+      "img": "/img/job/chrome.png",
+      "name": "JavaScript Developer",
+      "subName": "New York,USA",
+      "deadline": "31 May 2021",
+      "jobTime": "full time",
+      "salary": "$ 1000 - $ 2000 per month"
+    },
+    {
+      "id": 3,
+      "img": "/img/job/dribbble.png",
+      "name": "Senior UI/UX Designer",
+      "subName": "New York,USA",
+      "deadline": "31 May 2021",
+      "jobTime": "full time",
+      "salary": "$ 1000 - $ 2000 per month"
+    },
+    {
+      "id": 4,
+      "img": "/img/job/slack.png",
+      "name": "Frontend Developer",
+      "subName": "New York,USA",
+      "deadline": "31 May 2021",
+      "jobTime": "full time",
+      "salary": "$ 1000 - $ 2000 per month"
+    },
+    {
+      "id": 5,
+      "img": "/img/job/tags.png",
+      "name": "Visual Graphic Designer",
+      "subName": "New York,USA",
+      "deadline": "31 May 2021",
+      "jobTime": "full time",
+      "salary": "$ 1000 - $ 2000 per month"
+    },
+    {
+      "id": 6,
+      "img": "/img/job/firefox.png",
+      "name": "Support Engineer",
+      "subName": "New York,USA",
+      "deadline": "31 May 2021",
+      "jobTime": "full time",
+      "salary": "$ 1000 - $ 2000 per month"
+    }
+]

@@ -1,0 +1,8 @@
+{
+    "title": "Current period",
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"],
+    "orders": [0, 26, 15, 50, 40, 55, 40, 55, 35, 80],
+    "total": "8,550",
+    "growthRate": "25.36",
+    "growthStatus": "down"
+}

@@ -1,0 +1,101 @@
+{
+    "today": [{
+            "id": 1,
+            "type": "primary",
+            "title": "Planning for new dashboard wireframe and prototype design",
+            "date": "19",
+            "month": "Mar",
+            "time": "08:30 AM"
+        },
+        {
+            "id": 2,
+            "type": "secondary",
+            "title": "International Web Conference 2021",
+            "date": "19",
+            "month": "May",
+            "time": "09:30 AM"
+        },
+        {
+            "id": 3,
+            "type": "info",
+            "title": "Dribble Designer Meetup",
+            "date": "19",
+            "month": "Jan",
+            "time": "10:30 AM"
+        },
+        {
+            "id": 4,
+            "type": "warning",
+            "title": "Dribble Designer Meetup",
+            "date": "19",
+            "month": "Jul",
+            "time": "11:30 AM"
+        }
+    ],
+    "week": [{
+            "id": 1,
+            "type": "primary",
+            "title": "Wordcamp 2050 in Dhaka",
+            "date": "10",
+            "month": "Aug",
+            "time": "10:00 AM"
+        },
+        {
+            "id": 2,
+            "type": "info",
+            "title": "Days grief himnot brow tales.",
+            "date": "12",
+            "month": "Dec",
+            "time": "09:30 AM"
+        },
+        {
+            "id": 3,
+            "type": "secondary",
+            "title": "Dribble Designer MeetupWas herz ich.",
+            "date": "05",
+            "month": "Feb",
+            "time": "03:30 PM"
+        },
+        {
+            "id": 4,
+            "type": "warning",
+            "title": "Taste might chill had been.",
+            "date": "15",
+            "month": "Jan",
+            "time": "01:00 PM"
+        }
+    ],
+    "month": [{
+            "id": 1,
+            "type": "primary",
+            "title": "Mien bird violet nevermore the",
+            "date": "26",
+            "month": "Apr",
+            "time": "10:30 AM"
+        },
+        {
+            "id": 2,
+            "type": "secondary",
+            "title": "International Web Conference 2021",
+            "date": "17",
+            "month": "May",
+            "time": "09:30 AM"
+        },
+        {
+            "id": 3,
+            "type": "info",
+            "title": "Him superstition seek with joyless",
+            "date": "24",
+            "month": "Oct",
+            "time": "10:30 AM"
+        },
+        {
+            "id": 4,
+            "type": "warning",
+            "title": "Son faudra et de que.",
+            "date": "28",
+            "month": "Nov",
+            "time": "08:00 PM"
+        }
+    ]
+}

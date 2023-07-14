@@ -1,0 +1,128 @@
+{
+    "today":[
+        {
+            "paymentMethod": "Bank Transfer",
+            "duration": "10 mins ago",
+            "amount": "$578",
+            "icon": "university",
+            "style": "primary",
+            "paymentType": "credit"
+        },
+        {
+            "paymentMethod": "Paypal",
+            "duration": "21 mins ago",
+            "amount": "$145",
+            "icon": "paypal",
+            "style": "info",
+            "paymentType": "credit"
+        },
+        {
+            "paymentMethod": "Wallet",
+            "duration": "31 mins ago",
+            "amount": "$956",
+            "icon": "wallet",
+            "style": "success",
+            "paymentType": "debit"
+        },
+        {
+            "paymentMethod": "Credit Card",
+            "duration": "45 mins ago",
+            "amount": "$758",
+            "icon": "credit-card",
+            "style": "warning",
+            "paymentType": "credit"
+        },
+        {
+            "paymentMethod": "Transfer",
+            "duration": "50 mins ago",
+            "amount": "$358",
+            "icon": "money-bill",
+            "style": "secondary",
+            "paymentType": "debit"
+        }
+    ],
+    "week":[
+        {
+            "paymentMethod": "Bank Transfer",
+            "duration": "50 mins ago",
+            "amount": "$748",
+            "icon": "university",
+            "style": "primary",
+            "paymentType": "credit"
+        },
+        {
+            "paymentMethod": "Paypal",
+            "duration": "15 mins ago",
+            "amount": "$584",
+            "icon": "paypal",
+            "style": "info",
+            "paymentType": "debit"
+        },
+        {
+            "paymentMethod": "Wallet",
+            "duration": "45 mins ago",
+            "amount": "$695",
+            "icon": "wallet",
+            "style": "success",
+            "paymentType": "credit"
+        },
+        {
+            "paymentMethod": "Credit Card",
+            "duration": "25 mins ago",
+            "amount": "$159",
+            "icon": "credit-card",
+            "style": "warning",
+            "paymentType": "credit"
+        },
+        {
+            "paymentMethod": "Transfer",
+            "duration": "56 mins ago",
+            "amount": "$357",
+            "icon": "money-bill",
+            "style": "secondary",
+            "paymentType": "debit"
+        }
+    ],
+    "month":[
+        {
+            "paymentMethod": "Bank Transfer",
+            "duration": "1 hour ago",
+            "amount": "$753",
+            "icon": "university",
+            "style": "primary",
+            "paymentType": "debit"
+        },
+        {
+            "paymentMethod": "Paypal",
+            "duration": "45 mins ago",
+            "amount": "$852",
+            "icon": "paypal",
+            "style": "info",
+            "paymentType": "debit"
+        },
+        {
+            "paymentMethod": "Wallet",
+            "duration": "54 mins ago",
+            "amount": "$456",
+            "icon": "wallet",
+            "style": "success",
+            "paymentType": "credit"
+        },
+        {
+            "paymentMethod": "Credit Card",
+            "duration": "35 mins ago",
+            "amount": "$789",
+            "icon": "credit-card",
+            "style": "warning",
+            "paymentType": "debit"
+        },
+        {
+            "paymentMethod": "Transfer",
+            "duration": "12 mins ago",
+            "amount": "$369",
+            "icon": "money-bill",
+            "style": "secondary",
+            "paymentType": "credit"
+        }
+    ]
+}

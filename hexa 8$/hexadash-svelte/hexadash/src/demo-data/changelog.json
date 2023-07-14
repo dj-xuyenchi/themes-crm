@@ -1,0 +1,39 @@
+[
+    {
+        "id": 3,
+        "date": "April 11, 2023",
+        "version":"1.1.1",
+        "new": [
+            "Added 2 New App Page"
+        ],
+        "fixed": [
+            "Minor Style issues"
+        ],
+        "updated":  [
+            "Svg Issue Fixed"
+        ]
+    },
+    {
+        "id": 2,
+        "date": "Jan 08, 2023",
+        "version":"1.1.0",
+        "new": [
+            "Added 5 New Home Page"
+        ],
+        "fixed": [
+            "Minor Style issues"
+        ],
+        "updated": false
+    },
+    {
+        "id": 1,
+        "date": "Dec 19, 2022",
+        "version":"1.0.0",
+        "new": [
+            "Initial Release"
+        ],
+        "fixed": false,
+        "updated": false
+    }
+]
+

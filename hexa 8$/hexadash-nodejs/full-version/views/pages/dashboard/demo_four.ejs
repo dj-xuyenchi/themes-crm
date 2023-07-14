@@ -1,0 +1,110 @@
+<div class="demo4 crm">
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-lg-12">
+                <div class="breadcrumb-main">
+                    <h4 class="text-capitalize breadcrumb-title"><%- __('dashboard_page_title') %></h4>
+                    <div class="breadcrumb-action justify-content-center flex-wrap">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#"><i class="las la-home"></i><%- __('dashboard_page_title') %></a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><%- __('demo_four_page_title') %></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-lg-6 mb-25">
+                <div class="card banner-feature banner-feature--danial mb-0">
+                    <div class="banner-feature__shape">
+                      <img src="<%- locals.base %>img/glass-trophy.png" alt="img">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <div class="card-body">
+                        <h1 class="banner-feature__heading color-white">Congratulations Danial!</h1>
+                        <p class="banner-feature__para ">Best Seller on the last month.</p>
+                        <button class="banner-feature__btn btn color-secondary btn-md px-20 radius-xs fs-15" type="button">Learn More</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-lg-6 mb-25">
+                <%- include('../../components/dashboard/demo_four/performance_overview') %>                
+            </div>
+            <div class="col-xxl-4 col-xl-6 col-lg-12 mb-25">
+                <div class="row">
+                    <div class="col-md-6">
+                        <%- include('../../components/dashboard/demo_four/total_products') %>                        
+                    </div>
+                    <div class="col-md-6">
+                        <%- include('../../components/dashboard/demo_four/total_awards') %>                        
+                    </div>
+                    <div class="col-12 mt-25">
+                        <div class="card banner-feature banner-feature--7 position-relative border-0 mb-0">
+                            <div class="d-flex justify-content-center">
+                               <div class="card-body py-25 px-30">
+                                  <div class="div">
+                                     <h4 class="banner-feature__heading">Subscribe to our newsletter</h4>
+                                     <p class="banner-feature__para ">We notify you once any post is published</p>
+                                     <button type="button" class="btn btn-primary mt-15 btn-md">Subscribe</button>
+                                  </div>
+                                  <div class="banner-feature__shape position-absolute">
+                                     <img src="<%- locals.base %>img/3d-message.png" alt="img">
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 mb-25">
+                <%- include('../../components/dashboard/demo_four/task_list') %>                
+            </div>
+            <div class="col-xl-6 mb-25">
+                <%- include('../../components/dashboard/demo_four/marketing_campaigns') %>                
+            </div>
+            <div class="col-xxl-8">
+                <div class="row">
+                    <div class="col-md-6 mb-25">
+                        <div class="feature-profile">
+                            <div class="feature-profile__bg">
+                                <img src="<%- locals.base %>img/profile_bg.png" alt="">
+                            </div>
+                            <div class="feature-profile_content">
+                                <img src="<%- locals.base %>img/profile_bg_2.png" alt="">
+                                <h6>Robert Clinton</h6>
+                                <p>Best Seller of the last month</p>
+                                <ul class="profile-feature__social">
+                                    <li>
+                                        <a href="#" class="bg-facebook">
+                                            <img src="<%- locals.base %>img/svg/facebook.svg" alt="facebook" class="svg">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="bg-twitter">
+                                            <img src="<%- locals.base %>img/svg/twitter.svg" alt="twitter" class="svg">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="bg-instagram">
+                                            <img src="<%- locals.base %>img/svg/instagram.svg" alt="instagram" class="svg">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-25">
+                        <%- include('../../components/dashboard/demo_four/team_members') %>
+                    </div>
+                    <div class="col-12 mb-25">
+                        <%- include('../../components/dashboard/demo_four/social_media_traffic') %>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 mb-25">
+                <%- include('../../components/dashboard/demo_four/chat') %>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1953 @@
+{
+  "salesLocation": {
+    "today": [
+      ["United states", "90", "$536"],
+      ["United kingdom", "70", "$573"],
+      ["Canada", "70", "$457"],
+      ["Japan", "30", "$524"],
+      ["Bangladesh", "50", "$354"],
+      ["India", "60", "$654"]
+    ],
+    "week": [
+      ["Japan", "90", "$336"],
+      ["United kingdom", "70", "$873"],
+      ["Canada", "70", "$557"],
+      ["Japan", "30", "$525"],
+      ["Bangladesh", "50", "$352"],
+      ["Pakistan", "60", "$658"]
+    ],
+    "month": [
+      ["Russia", "90", "$534"],
+      ["Germany", "70", "$573"],
+      ["Canada", "70", "$487"],
+      ["Japan", "30", "$514"],
+      ["Bangladesh", "50", "$394"],
+      ["Vutan", "60", "$354"]
+    ]
+  },
+  "topSaleProduct": {
+    "today": [{
+        "key": "1",
+        "img": "1.png",
+        "name": "Samsung Galaxy S8 256GB ",
+        "price": "$280",
+        "sold": "126",
+        "revenue": "$38,536"
+      },
+      {
+        "key": "2",
+        "img": "2.png",
+        "name": "Half Sleeve Shirt",
+        "price": "$39",
+        "sold": "180",
+        "revenue": "$20,573"
+      },
+      {
+        "key": "3",
+        "img": "3.png",
+        "name": "Marco Shoes",
+        "price": "$89",
+        "sold": "581",
+        "revenue": "$170,758"
+      },
+      {
+        "key": "4",
+        "img": "5.png",
+        "name": "Marco Shoes",
+        "price": "$32",
+        "sold": "451",
+        "revenue": "$258,105"
+      },
+      {
+        "key": "5",
+        "img": "4.png",
+        "name": "15\" MackBook Pro",
+        "price": "$950",
+        "sold": "745",
+        "revenue": "$745,154"
+      }
+    ],
+    "week": [{
+        "key": "1",
+        "img": "1.png",
+        "name": "Samsung Note 10 256GB",
+        "price": "$450",
+        "sold": "300",
+        "revenue": "$43060"
+      },
+      {
+        "key": "2",
+        "img": "2.png",
+        "name": "Full Sleeve Shirt",
+        "price": "$49",
+        "sold": "300",
+        "revenue": "$3178"
+      },
+      {
+        "key": "3",
+        "img": "3.png",
+        "name": "Nike Shoes",
+        "price": "$89",
+        "sold": "581",
+        "revenue": "$170,758"
+      },
+      {
+        "key": "4",
+        "img": "5.png",
+        "name": "Bata Shoes",
+        "price": "$32",
+        "sold": "451",
+        "revenue": "$258,105"
+      },
+      {
+        "key": "5",
+        "img": "4.png",
+        "name": "15\" MackBook Pro",
+        "price": "$950",
+        "sold": "745",
+        "revenue": "$745,154"
+      }
+    ],
+    "month": [{
+        "key": "1",
+        "img": "1.png",
+        "name": "Samsung Galaxy Premio 256GB",
+        "price": "$670",
+        "sold": "126",
+        "revenue": "$40,988"
+      },
+      {
+        "key": "2",
+        "img": "2.png",
+        "name": "Half Sleeve Shirt",
+        "price": "$39",
+        "sold": "180",
+        "revenue": "$20,573"
+      },
+      {
+        "key": "3",
+        "img": "3.png",
+        "name": "Marco Shoes",
+        "price": "$89",
+        "sold": "581",
+        "revenue": "$170,758"
+      },
+      {
+        "key": "4",
+        "img": "5.png",
+        "name": "Marco Shoes",
+        "price": "$32",
+        "sold": "451",
+        "revenue": "$258,105"
+      },
+      {
+        "key": "5",
+        "img": "4.png",
+        "name": "15\" MackBook Pro",
+        "price": "$950",
+        "sold": "745",
+        "revenue": "$745,154"
+      }
+    ]
+  },
+  "browserState": {
+    "today": [{
+        "key": "1",
+        "img": "chrome.png",
+        "name": "Google Chrome",
+        "session": "10,345",
+        "bounceRate": "5.5%",
+        "cte": "12025",
+        "goalRate": "100%"
+      },
+      {
+        "key": "2",
+        "img": "firefox.png",
+        "name": "Google Chrome",
+        "session": "25,345",
+        "bounceRate": "1.5%",
+        "cte": "12025",
+        "goalRate": "25%"
+      },
+      {
+        "key": "3",
+        "img": "internet-explorer.png",
+        "name": "Google Chrome",
+        "session": "45,345",
+        "bounceRate": "5.5%",
+        "cte": "12025",
+        "goalRate": "45%"
+      },
+      {
+        "key": "4",
+        "img": "opera.png",
+        "name": "Google Chrome",
+        "session": "65,345",
+        "bounceRate": "0.5%",
+        "cte": "12025",
+        "goalRate": "65%"
+      },
+      {
+        "key": "5",
+        "img": "safari.png",
+        "name": "Google Chrome",
+        "session": "85,345",
+        "bounceRate": "8.5%",
+        "cte": "12025",
+        "goalRate": "80%"
+      }
+    ],
+    "week": [{
+        "key": "1",
+        "img": "chrome.png",
+        "name": "Google Chrome",
+        "session": "92,345",
+        "bounceRate": "4.5%",
+        "cte": "12025",
+        "goalRate": "90%"
+      },
+      {
+        "key": "2",
+        "img": "firefox.png",
+        "name": "Google Chrome",
+        "session": "92,345",
+        "bounceRate": "8.5%",
+        "cte": "12025",
+        "goalRate": "90%"
+      },
+      {
+        "key": "3",
+        "img": "internet-explorer.png",
+        "name": "Google Chrome",
+        "session": "92,345",
+        "bounceRate": "7.5%",
+        "cte": "12025",
+        "goalRate": "90%"
+      },
+      {
+        "key": "4",
+        "img": "opera.png",
+        "name": "Google Chrome",
+        "session": "92,345",
+        "bounceRate": "0.5%",
+        "cte": "12025",
+        "goalRate": "90%"
+      },
+      {
+        "key": "5",
+        "img": "safari.png",
+        "name": "Google Chrome",
+        "session": "92,345",
+        "bounceRate": "1.5%",
+        "cte": "12025",
+        "goalRate": "90%"
+      }
+    ],
+    "month": [{
+        "key": "1",
+        "img": "chrome.png",
+        "name": "Google Chrome",
+        "session": "92,345",
+        "bounceRate": "4.5%",
+        "cte": "13025",
+        "goalRate": "90%"
+      },
+      {
+        "key": "2",
+        "img": "firefox.png",
+        "name": "Google Chrome",
+        "session": "92,345",
+        "bounceRate": "7.5%",
+        "cte": "13025",
+        "goalRate": "90%"
+      },
+      {
+        "key": "3",
+        "img": "internet-explorer.png",
+        "name": "Google Chrome",
+        "session": "92,345",
+        "bounceRate": "2.5%",
+        "cte": "14025",
+        "goalRate": "90%"
+      },
+      {
+        "key": "4",
+        "img": "opera.png",
+        "name": "Google Chrome",
+        "session": "92,345",
+        "bounceRate": "4.5%",
+        "cte": "16025",
+        "goalRate": "90%"
+      },
+      {
+        "key": "5",
+        "img": "safari.png",
+        "name": "Google Chrome",
+        "session": "92,345",
+        "bounceRate": "5.5%",
+        "cte": "11025",
+        "goalRate": "90%"
+      }
+    ]
+  },
+  "revenueGenerated": {
+    "today": [{
+        "key": "1",
+        "icon": "google",
+        "name": "Google",
+        "visitors": "23,397",
+        "pageView": "17,201",
+        "revenue": "$5,536",
+        "trend": "90",
+        "progress": "primary"
+      },
+      {
+        "key": "2",
+        "icon": "facebook",
+        "name": "Facebook",
+        "visitors": "23,397",
+        "pageView": "14,201",
+        "revenue": "$5,536",
+        "trend": "34",
+        "progress": "secondary"
+      },
+      {
+        "key": "3",
+        "icon": "twitter",
+        "name": "Twitter",
+        "visitors": "23,397",
+        "pageView": "16,201",
+        "revenue": "$5,536",
+        "trend": "56",
+        "progress": "info"
+      },
+      {
+        "key": "4",
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "visitors": "23,397",
+        "pageView": "13,201",
+        "revenue": "$5,536",
+        "trend": "77",
+        "progress": "danger"
+      },
+      {
+        "key": "5",
+        "icon": "instagram",
+        "name": "Instagram",
+        "visitors": "23,397",
+        "pageView": "16,201",
+        "revenue": "$5,536",
+        "trend": "93",
+        "progress": "warning"
+      }
+    ],
+    "week": [{
+        "key": "1",
+        "icon": "google",
+        "name": "Google",
+        "visitors": "26,397",
+        "pageView": "53,465",
+        "revenue": "$4,617",
+        "trend": "70",
+        "progress": "primary"
+      },
+      {
+        "key": "2",
+        "icon": "facebook",
+        "name": "Facebook",
+        "visitors": "22,454",
+        "pageView": "83,734",
+        "revenue": "$4,328",
+        "trend": "78",
+        "progress": "secondary"
+      },
+      {
+        "key": "3",
+        "icon": "twitter",
+        "name": "Twitter",
+        "visitors": "29,364",
+        "pageView": "74,345",
+        "revenue": "$6,438",
+        "trend": "86",
+        "progress": "info"
+      },
+      {
+        "key": "4",
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "visitors": "24,565",
+        "pageView": "24,572",
+        "revenue": "$4,257",
+        "trend": "77",
+        "progress": "danger"
+      },
+      {
+        "key": "5",
+        "icon": "instagram",
+        "name": "Instagram",
+        "visitors": "16,637",
+        "pageView": "30,234",
+        "revenue": "$8,559",
+        "trend": "20",
+        "progress": "warning"
+      }
+    ],
+    "month": [{
+        "key": "1",
+        "icon": "google",
+        "name": "Google",
+        "visitors": "29,575",
+        "pageView": "11,317",
+        "revenue": "$8,472",
+        "trend": "60",
+        "progress": "primary"
+      },
+      {
+        "key": "2",
+        "icon": "facebook",
+        "name": "Facebook",
+        "visitors": "11,159",
+        "pageView": "10,470",
+        "revenue": "$6,538",
+        "trend": "70",
+        "progress": "secondary"
+      },
+      {
+        "key": "3",
+        "icon": "twitter",
+        "name": "Twitter",
+        "visitors": "21,341",
+        "pageView": "22,010",
+        "revenue": "$6,017",
+        "trend": "68",
+        "progress": "info"
+      },
+      {
+        "key": "4",
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "visitors": "23,258",
+        "pageView": "11,184",
+        "revenue": "$6,368",
+        "trend": "80",
+        "progress": "danger"
+      },
+      {
+        "key": "5",
+        "icon": "instagram",
+        "name": "Instagram",
+        "visitors": "22,249",
+        "pageView": "10,151",
+        "revenue": "$5,536",
+        "trend": "45",
+        "progress": "warning"
+      }
+    ]
+  },
+  "newProduct": {
+    "today": [{
+        "key": "1",
+        "img": "8.png",
+        "name": "UV Protected Sunglass",
+        "price": "$38,536"
+      },
+      {
+        "key": "2",
+        "img": "6.png",
+        "name": "Black Headphone",
+        "price": "$78,786"
+      },
+      {
+        "key": "3",
+        "img": "9.png",
+        "name": "Nike Shoes",
+        "price": "$45,456"
+      },
+      {
+        "key": "4",
+        "img": "7.png",
+        "name": "Women Bag",
+        "price": "$12,453"
+      },
+      {
+        "key": "5",
+        "img": "2.png",
+        "name": "T Shirt",
+        "price": "$42,785"
+      }
+    ],
+    "week": [{
+        "key": "1",
+        "img": "6.png",
+        "name": "New Model Sunglass",
+        "price": "$138,436"
+      },
+      {
+        "key": "2",
+        "img": "7.png",
+        "name": "Michael Johnson",
+        "price": "$238,556"
+      },
+      {
+        "key": "3",
+        "img": "8.png",
+        "name": "Nike Shoes",
+        "price": "$328,776"
+      },
+      {
+        "key": "4",
+        "img": "9.png",
+        "name": "Men Bag",
+        "price": "$384,752"
+      },
+      {
+        "key": "5",
+        "img": "4.png",
+        "name": "15`` Toshiba Pro",
+        "price": "$385,122"
+      }
+    ],
+    "month": [{
+        "key": "1",
+        "img": "6.png",
+        "name": "Computer Light Sunglass",
+        "price": "$738,755"
+      },
+      {
+        "key": "2",
+        "img": "7.png",
+        "name": "Large Headphone",
+        "price": "$838,455"
+      },
+      {
+        "key": "3",
+        "img": "8.png",
+        "name": "Nike Shoes",
+        "price": "$388,545"
+      },
+      {
+        "key": "4",
+        "img": "9.png",
+        "name": "High Quality Bag",
+        "price": "$938,456"
+      },
+      {
+        "key": "5",
+        "img": "4.png",
+        "name": "15`` Lenovo Pro",
+        "price": "$538,456"
+      }
+    ]
+  },
+  "newProductOld": {
+    "today": [{
+        "key": "1",
+        "img": "19.png",
+        "name": "Robert Clinton",
+        "price": "$38,536"
+      },
+      {
+        "key": "2",
+        "img": "18.png",
+        "name": "Michael Johnson",
+        "price": "$78,786"
+      },
+      {
+        "key": "3",
+        "img": "17.png",
+        "name": "Daniel White",
+        "price": "$45,456"
+      },
+      {
+        "key": "4",
+        "img": "16.png",
+        "name": "Chris Barin",
+        "price": "$12,453"
+      },
+      {
+        "key": "5",
+        "img": "15.png",
+        "name": "Michael Johnson",
+        "price": "$42,785"
+      },
+      {
+        "key": "6",
+        "img": "15.png",
+        "name": "Daniel Pink",
+        "price": "$42,785"
+      }
+    ],
+    "week": [{
+        "key": "1",
+        "img": "15.png",
+        "name": "Robert Clinton",
+        "price": "$138,436"
+      },
+      {
+        "key": "2",
+        "img": "16.png",
+        "name": "Michael Johnson",
+        "price": "$238,556"
+      },
+      {
+        "key": "3",
+        "img": "17.png",
+        "name": "Daniel White",
+        "price": "$328,776"
+      },
+      {
+        "key": "4",
+        "img": "18.png",
+        "name": "Chris Barin",
+        "price": "$384,752"
+      },
+      {
+        "key": "5",
+        "img": "19.png",
+        "name": "Michael Johnson",
+        "price": "$385,122"
+      },
+      {
+        "key": "6",
+        "img": "15.png",
+        "name": "Daniel Pink",
+        "price": "$42,785"
+      }
+    ],
+    "month": [{
+        "key": "1",
+        "img": "19.png",
+        "name": "Robert Clinton",
+        "price": "$738,755"
+      },
+      {
+        "key": "2",
+        "img": "18.png",
+        "name": "Michael Johnson",
+        "price": "$838,455"
+      },
+      {
+        "key": "3",
+        "img": "17.png",
+        "name": "Daniel White",
+        "price": "$388,545"
+      },
+      {
+        "key": "4",
+        "img": "16.png",
+        "name": "Chris Barin",
+        "price": "$938,456"
+      },
+      {
+        "key": "5",
+        "img": "15.png",
+        "name": "Michael Johnson",
+        "price": "$538,456"
+      },
+      {
+        "key": "6",
+        "img": "19.png",
+        "name": "Daniel Pink",
+        "price": "$42,785"
+      }
+    ]
+  },
+  "bestSeller": {
+    "today": [{
+        "key": "1",
+        "img": "10.png",
+        "name": "Robert Clinton",
+        "company": "Samsung",
+        "product": "Smart Phone",
+        "revenue": "$38,536",
+        "status": "Done"
+      },
+      {
+        "key": "2",
+        "img": "11.png",
+        "name": "Michael Johnson  ",
+        "company": "Asus",
+        "product": "Laptop",
+        "revenue": "$20,573",
+        "status": "Done"
+      },
+      {
+        "key": "3",
+        "img": "12.png",
+        "name": "Daniel White",
+        "company": "Google",
+        "product": "Watch",
+        "revenue": "$17,457",
+        "status": "Pending"
+      },
+      {
+        "key": "4",
+        "img": "13.png",
+        "name": "Chris Barin ",
+        "company": "Apple",
+        "product": "Computer",
+        "revenue": "$15,354",
+        "status": "Done"
+      },
+      {
+        "key": "5",
+        "img": "14.png",
+        "name": "Daniel Pink",
+        "company": "Panasonic",
+        "product": "Sunglass",
+        "revenue": "$12,354",
+        "status": "Done"
+      }
+    ],
+    "week": [{
+        "key": "1",
+        "img": "10.png",
+        "name": "Andrew Brock",
+        "company": "Samsung",
+        "product": "Galaxy S22",
+        "revenue": "$56,487",
+        "status": "Done"
+      },
+      {
+        "key": "2",
+        "img": "11.png",
+        "name": "Mitchel Marsh",
+        "company": "Asus",
+        "product": "Laptop Elitebook",
+        "revenue": "$51,425",
+        "status": "Done"
+      },
+      {
+        "key": "3",
+        "img": "12.png",
+        "name": "Cameron Browny",
+        "company": "Google",
+        "product": "Smart Glass",
+        "revenue": "$47,457",
+        "status": "Pending"
+      },
+      {
+        "key": "4",
+        "img": "13.png",
+        "name": "Fog Rampercott",
+        "company": "Apple",
+        "product": "Mackbook Pro",
+        "revenue": "$32,478",
+        "status": "Done"
+      },
+      {
+        "key": "5",
+        "img": "14.png",
+        "name": "David Christopher",
+        "company": "Panasonic",
+        "product": "HD Cam",
+        "revenue": "$22,159",
+        "status": "Done"
+      }
+    ],
+    "month": [{
+        "key": "1",
+        "img": "10.png",
+        "name": "Christopher Dolan",
+        "company": "Samsung",
+        "product": "Tablet Pro",
+        "revenue": "$99,758",
+        "status": "Done"
+      },
+      {
+        "key": "2",
+        "img": "11.png",
+        "name": "Jemmy Jemmison",
+        "company": "Asus",
+        "product": "Gaming Laptop",
+        "revenue": "$95,124",
+        "status": "Done"
+      },
+      {
+        "key": "3",
+        "img": "12.png",
+        "name": "Alan Quartermain",
+        "company": "Google",
+        "product": "Pixel Phone",
+        "revenue": "$84,127",
+        "status": "Pending"
+      },
+      {
+        "key": "4",
+        "img": "13.png",
+        "name": "Daniel Hings",
+        "company": "Apple",
+        "product": "Floor Swiper",
+        "revenue": "$82,369",
+        "status": "Done"
+      },
+      {
+        "key": "5",
+        "img": "14.png",
+        "name": "Json Barn",
+        "company": "Panasonic",
+        "product": "Sunglass",
+        "revenue": "$79,258",
+        "status": "Done"
+      }
+    ]
+  },
+  "bestSellerOld": {
+    "today": [{
+        "key": "1",
+        "img": "15.png",
+        "name": "Robert Clinton",
+        "company": "Samsung",
+        "product": "Smart Phone",
+        "revenue": "$38,536",
+        "status": "Done"
+      },
+      {
+        "key": "2",
+        "img": "16.png",
+        "name": "Michael Johnson  ",
+        "company": "Asus",
+        "product": "Laptop",
+        "revenue": "$20,573",
+        "status": "Done"
+      },
+      {
+        "key": "3",
+        "img": "17.png",
+        "name": "Daniel White",
+        "company": "Google",
+        "product": "Watch",
+        "revenue": "$17,457",
+        "status": "Pending"
+      },
+      {
+        "key": "4",
+        "img": "18.png",
+        "name": "Chris Barin ",
+        "company": "Apple",
+        "product": "Computer",
+        "revenue": "$15,354",
+        "status": "Done"
+      },
+      {
+        "key": "5",
+        "img": "19.png",
+        "name": "Daniel Pink",
+        "company": "Panasonic",
+        "product": "Sunglass",
+        "revenue": "$12,354",
+        "status": "Done"
+      }
+    ],
+    "week": [{
+        "key": "1",
+        "img": "19.png",
+        "name": "Andrew Brock",
+        "company": "Samsung",
+        "product": "Galaxy S22",
+        "revenue": "$56,487",
+        "status": "Done"
+      },
+      {
+        "key": "2",
+        "img": "18.png",
+        "name": "Mitchel Marsh",
+        "company": "Asus",
+        "product": "Laptop Elitebook",
+        "revenue": "$51,425",
+        "status": "Done"
+      },
+      {
+        "key": "3",
+        "img": "17.png",
+        "name": "Cameron Browny",
+        "company": "Google",
+        "product": "Smart Glass",
+        "revenue": "$47,457",
+        "status": "Pending"
+      },
+      {
+        "key": "4",
+        "img": "16.png",
+        "name": "Fog Rampercott",
+        "company": "Apple",
+        "product": "Mackbook Pro",
+        "revenue": "$32,478",
+        "status": "Done"
+      },
+      {
+        "key": "5",
+        "img": "15.png",
+        "name": "David Christopher",
+        "company": "Panasonic",
+        "product": "HD Cam",
+        "revenue": "$22,159",
+        "status": "Done"
+      }
+    ],
+    "month": [{
+        "key": "1",
+        "img": "15.png",
+        "name": "Christopher Dolan",
+        "company": "Samsung",
+        "product": "Tablet Pro",
+        "revenue": "$99,758",
+        "status": "Done"
+      },
+      {
+        "key": "2",
+        "img": "16.png",
+        "name": "Jemmy Jemmison",
+        "company": "Asus",
+        "product": "Gaming Laptop",
+        "revenue": "$95,124",
+        "status": "Done"
+      },
+      {
+        "key": "3",
+        "img": "17.png",
+        "name": "Alan Quartermain",
+        "company": "Google",
+        "product": "Pixel Phone",
+        "revenue": "$84,127",
+        "status": "Pending"
+      },
+      {
+        "key": "4",
+        "img": "18.png",
+        "name": "Daniel Hings",
+        "company": "Apple",
+        "product": "Floor Swiper",
+        "revenue": "$82,369",
+        "status": "Done"
+      },
+      {
+        "key": "5",
+        "img": "19.png",
+        "name": "Json Barn",
+        "company": "Panasonic",
+        "product": "Sunglass",
+        "revenue": "$79,258",
+        "status": "Done"
+      }
+    ]
+  },
+  "activeUserData": {
+    "today": [{
+        "key": "1",
+        "img": "10.png",
+        "name": "Robert Clinton",
+        "company": "Samsung",
+        "product": "Smart Phone",
+        "revenue": "$38,536",
+        "status": "Done"
+      },
+      {
+        "key": "2",
+        "img": "11.png",
+        "name": "Michael Johnson  ",
+        "company": "Asus",
+        "product": "Laptop",
+        "revenue": "$20,573",
+        "status": "Done"
+      },
+      {
+        "key": "3",
+        "img": "12.png",
+        "name": "Daniel White",
+        "company": "Google",
+        "product": "Watch",
+        "revenue": "$17,457",
+        "status": "Pending"
+      },
+      {
+        "key": "4",
+        "img": "13.png",
+        "name": "Chris Barin ",
+        "company": "Apple",
+        "product": "Computer",
+        "revenue": "$15,354",
+        "status": "Done"
+      },
+      {
+        "key": "5",
+        "img": "14.png",
+        "name": "Daniel Pink",
+        "company": "Panasonic",
+        "product": "Sunglass",
+        "revenue": "$12,354",
+        "status": "Done"
+      }
+    ],
+    "week": [{
+        "key": "1",
+        "img": "10.png",
+        "name": "Theme Jhone",
+        "company": "Daraz",
+        "product": "Cool watch",
+        "revenue": "$28,336",
+        "status": "Done"
+      },
+      {
+        "key": "2",
+        "img": "11.png",
+        "name": "Elon Mask",
+        "company": "Picaboo",
+        "product": "Tea Cup",
+        "revenue": "$22,147",
+        "status": "Pensing"
+      },
+      {
+        "key": "3",
+        "img": "12.png",
+        "name": "Shamim Ahmed",
+        "company": "Yahoo",
+        "product": "Rocking Chair",
+        "revenue": "$1,007",
+        "status": "Pending"
+      },
+      {
+        "key": "4",
+        "img": "13.png",
+        "name": "Tanjim Hasan",
+        "company": "Sovware",
+        "product": "DSLR Camera",
+        "revenue": "$1,354",
+        "status": "Done"
+      },
+      {
+        "key": "5",
+        "img": "14.png",
+        "name": "Daniel Pink",
+        "company": "Panasonic",
+        "product": "Sunglass",
+        "revenue": "$12,354",
+        "status": "Done"
+      }
+    ],
+    "month": [{
+        "key": "1",
+        "img": "10.png",
+        "name": "Robert Clinton",
+        "company": "Samsung",
+        "product": "Smart Phone",
+        "revenue": "$24,578",
+        "status": "Done"
+      },
+      {
+        "key": "2",
+        "img": "11.png",
+        "name": "Michael Johnson  ",
+        "company": "Asus",
+        "product": "Laptop",
+        "revenue": "$85,147",
+        "status": "Done"
+      },
+      {
+        "key": "3",
+        "img": "12.png",
+        "name": "Daniel White",
+        "company": "Google",
+        "product": "Watch",
+        "revenue": "$23,159",
+        "status": "Pending"
+      },
+      {
+        "key": "4",
+        "img": "13.png",
+        "name": "Chris Barin ",
+        "company": "Apple",
+        "product": "Computer",
+        "revenue": "$25,148",
+        "status": "Done"
+      },
+      {
+        "key": "5",
+        "img": "14.png",
+        "name": "Daniel Pink",
+        "company": "Panasonic",
+        "product": "Sunglass",
+        "revenue": "$52,124",
+        "status": "Done"
+      }
+    ]
+  },
+  "activeUserDataOld": {
+    "today": [{
+        "key": "1",
+        "img": "15.png",
+        "name": "Robert Clinton",
+        "company": "Samsung",
+        "product": "Smart Phone",
+        "revenue": "$38,536",
+        "status": "Done"
+      },
+      {
+        "key": "2",
+        "img": "16.png",
+        "name": "Michael Johnson  ",
+        "company": "Asus",
+        "product": "Laptop",
+        "revenue": "$20,573",
+        "status": "Done"
+      },
+      {
+        "key": "3",
+        "img": "17.png",
+        "name": "Daniel White",
+        "company": "Google",
+        "product": "Watch",
+        "revenue": "$17,457",
+        "status": "Pending"
+      },
+      {
+        "key": "4",
+        "img": "18.png",
+        "name": "Chris Barin ",
+        "company": "Apple",
+        "product": "Computer",
+        "revenue": "$15,354",
+        "status": "Done"
+      },
+      {
+        "key": "5",
+        "img": "19.png",
+        "name": "Daniel Pink",
+        "company": "Panasonic",
+        "product": "Sunglass",
+        "revenue": "$12,354",
+        "status": "Done"
+      }
+    ],
+    "week": [{
+        "key": "1",
+        "img": "19.png",
+        "name": "Theme Jhone",
+        "company": "Daraz",
+        "product": "Cool watch",
+        "revenue": "$28,336",
+        "status": "Done"
+      },
+      {
+        "key": "2",
+        "img": "18.png",
+        "name": "Elon Mask",
+        "company": "Picaboo",
+        "product": "Tea Cup",
+        "revenue": "$22,147",
+        "status": "Pensing"
+      },
+      {
+        "key": "3",
+        "img": "17.png",
+        "name": "Shamim Ahmed",
+        "company": "Yahoo",
+        "product": "Rocking Chair",
+        "revenue": "$1,007",
+        "status": "Pending"
+      },
+      {
+        "key": "4",
+        "img": "16.png",
+        "name": "Tanjim Hasan",
+        "company": "Sovware",
+        "product": "DSLR Camera",
+        "revenue": "$1,354",
+        "status": "Done"
+      },
+      {
+        "key": "5",
+        "img": "15.png",
+        "name": "Daniel Pink",
+        "company": "Panasonic",
+        "product": "Sunglass",
+        "revenue": "$12,354",
+        "status": "Done"
+      }
+    ],
+    "month": [{
+        "key": "1",
+        "img": "15.png",
+        "name": "Robert Clinton",
+        "company": "Samsung",
+        "product": "Smart Phone",
+        "revenue": "$24,578",
+        "status": "Done"
+      },
+      {
+        "key": "2",
+        "img": "16.png",
+        "name": "Michael Johnson  ",
+        "company": "Asus",
+        "product": "Laptop",
+        "revenue": "$85,147",
+        "status": "Done"
+      },
+      {
+        "key": "3",
+        "img": "17.png",
+        "name": "Daniel White",
+        "company": "Google",
+        "product": "Watch",
+        "revenue": "$23,159",
+        "status": "Pending"
+      },
+      {
+        "key": "4",
+        "img": "18.png",
+        "name": "Chris Barin ",
+        "company": "Apple",
+        "product": "Computer",
+        "revenue": "$25,148",
+        "status": "Done"
+      },
+      {
+        "key": "5",
+        "img": "19.png",
+        "name": "Daniel Pink",
+        "company": "Panasonic",
+        "product": "Sunglass",
+        "revenue": "$52,124",
+        "status": "Done"
+      }
+    ]
+  },
+  "topProduct": {
+    "today": [{
+        "key": "1",
+        "img": "1.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "deals": "248",
+        "amount": "1865"
+      },
+      {
+        "key": "2",
+        "img": "2.png",
+        "name": "Half Sleeve Shirt",
+        "deals": "145",
+        "amount": "1965"
+      },
+      {
+        "key": "3",
+        "img": "3.png",
+        "name": "Marco Shoes",
+        "deals": "256",
+        "amount": "4865"
+      },
+      {
+        "key": "4",
+        "img": "5.png",
+        "name": "Apple Mobile Phone",
+        "deals": "235",
+        "amount": "1996"
+      },
+      {
+        "key": "5",
+        "img": "4.png",
+        "name": "Microlab Headphone",
+        "deals": "210",
+        "amount": "2842"
+      },
+      {
+        "key": "6",
+        "img": "7.png",
+        "name": "Women Bag",
+        "deals": "299",
+        "amount": "3978"
+      }
+    ],
+    "week": [{
+        "key": "1",
+        "img": "1.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "deals": "354",
+        "amount": "1025"
+      },
+      {
+        "key": "2",
+        "img": "2.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "deals": "365",
+        "amount": "1598"
+      },
+      {
+        "key": "3",
+        "img": "3.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "deals": "310",
+        "amount": "1489"
+      },
+      {
+        "key": "4",
+        "img": "5.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "deals": "410",
+        "amount": "3657"
+      },
+      {
+        "key": "5",
+        "img": "4.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "deals": "965",
+        "amount": "2015"
+      },
+      {
+        "key": "6",
+        "img": "7.png",
+        "name": "Women Bag",
+        "deals": "245",
+        "amount": "2598"
+      }
+    ],
+    "month": [{
+        "key": "1",
+        "img": "1.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "deals": "457",
+        "amount": "4356"
+      },
+      {
+        "key": "2",
+        "img": "2.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "deals": "365",
+        "amount": "6254"
+      },
+      {
+        "key": "3",
+        "img": "3.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "deals": "401",
+        "amount": "7412"
+      },
+      {
+        "key": "4",
+        "img": "5.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "deals": "562",
+        "amount": "9654"
+      },
+      {
+        "key": "5",
+        "img": "4.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "deals": "652",
+        "amount": "8524"
+      },
+      {
+        "key": "6",
+        "img": "7.png",
+        "name": "Women Bag",
+        "deals": "221",
+        "amount": "6247"
+      }
+    ]
+  },
+  "recentDeal": {
+    "today": [{
+        "key": "1",
+        "img": "1.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "price": "$280"
+      },
+      {
+        "key": "2",
+        "img": "2.png",
+        "name": "Half Sleeve Shirt",
+        "price": "$145"
+      },
+      {
+        "key": "3",
+        "img": "3.png",
+        "name": "Marco Shoes",
+        "price": "$365"
+      },
+      {
+        "key": "4",
+        "img": "5.png",
+        "name": "Apple Mobile Phone",
+        "price": "$254"
+      },
+      {
+        "key": "5",
+        "img": "4.png",
+        "name": "Microlab Headphone",
+        "price": "$421"
+      },
+      {
+        "key": "6",
+        "img": "7.png",
+        "name": "Women Bag",
+        "price": "$512"
+      }
+    ],
+    "week": [{
+        "key": "1",
+        "img": "1.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "price": "$654"
+      },
+      {
+        "key": "2",
+        "img": "2.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "price": "$987"
+      },
+      {
+        "key": "3",
+        "img": "3.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "price": "$321"
+      },
+      {
+        "key": "4",
+        "img": "5.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "price": "$456"
+      },
+      {
+        "key": "5",
+        "img": "4.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "price": "$789"
+      },
+      {
+        "key": "6",
+        "img": "7.png",
+        "name": "Women Bag",
+        "price": "$123"
+      }
+    ],
+    "month": [{
+        "key": "1",
+        "img": "1.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "price": "$963"
+      },
+      {
+        "key": "2",
+        "img": "2.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "price": "$852"
+      },
+      {
+        "key": "3",
+        "img": "3.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "price": "$741"
+      },
+      {
+        "key": "4",
+        "img": "5.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "price": "$789"
+      },
+      {
+        "key": "5",
+        "img": "4.png",
+        "name": "Samsung Galaxy S8 256GB",
+        "price": "$456"
+      },
+      {
+        "key": "6",
+        "img": "7.png",
+        "name": "Women Bag",
+        "price": "$654"
+      }
+    ]
+  },
+  "memberProgressData": {
+    "today": [{
+        "id": 1,
+        "title": "Robert Clinton",
+        "workOn": "ReactJs, HTML",
+        "userImg": "robert-1.png",
+        "salary": "108,536",
+        "status": "75",
+        "progress": "primary"
+      },
+      {
+        "id": 2,
+        "title": "Michael Johnson",
+        "workOn": "Laravel, Angular",
+        "userImg": "robert-2.png",
+        "salary": "1038,536",
+        "status": "65",
+        "progress": "info"
+      },
+      {
+        "id": 3,
+        "title": "Daniel White",
+        "workOn": "Python,MySQL",
+        "userImg": "robert-3.png",
+        "salary": "11,536",
+        "status": "95",
+        "progress": "success"
+      },
+      {
+        "id": 4,
+        "title": "Chris Barin",
+        "workOn": "Wordpress",
+        "userImg": "robert-4.png",
+        "salary": "11,536",
+        "status": "65",
+        "progress": "secondary"
+      },
+      {
+        "id": 5,
+        "title": "Daniel Pink",
+        "workOn": "Photoshop",
+        "userImg": "robert-5.png",
+        "salary": "11,236",
+        "status": "50",
+        "progress": "warning"
+      },
+      {
+        "id": 6,
+        "title": "Shane Pollard",
+        "workOn": "Illustrator",
+        "userImg": "robert-1.png",
+        "salary": "10536",
+        "status": "55",
+        "progress": "warning"
+      }
+    ],
+    "week": [{
+        "id": 1,
+        "title": "Jonthon Traut",
+        "workOn": "Svelte, VueJS",
+        "userImg": "robert-1.png",
+        "salary": "251,102",
+        "status": "72",
+        "progress": "primary"
+      },
+      {
+        "id": 2,
+        "title": "Ismel Bokhrest",
+        "workOn": "VueJS, NodeJS",
+        "userImg": "robert-2.png",
+        "salary": "124,256",
+        "status": "63",
+        "progress": "info"
+      },
+      {
+        "id": 3,
+        "title": "Shane Paul",
+        "workOn": "Java, ASP.Net",
+        "userImg": "robert-3.png",
+        "salary": "157,256",
+        "status": "75",
+        "progress": "success"
+      },
+      {
+        "id": 4,
+        "title": "Chris Barin",
+        "workOn": "Wordpress",
+        "userImg": "robert-4.png",
+        "salary": "11,536",
+        "status": "85",
+        "progress": "secondary"
+      },
+      {
+        "id": 5,
+        "title": "Daniel Pink",
+        "workOn": "Photoshop",
+        "userImg": "robert-5.png",
+        "salary": "11,236",
+        "status": "55",
+        "progress": "warning"
+      },
+      {
+        "id": 6,
+        "title": "Shane Pollard",
+        "workOn": "Illustrator",
+        "userImg": "robert-1.png",
+        "salary": "10536",
+        "status": "24",
+        "progress": "warning"
+      }
+    ],
+    "month": [{
+        "id": 1,
+        "title": "Arthur Kenan",
+        "workOn": "ReactJs, HTML",
+        "userImg": "robert-1.png",
+        "salary": "108,536",
+        "status": "88",
+        "progress": "primary"
+      },
+      {
+        "id": 2,
+        "title": "Michael Johnson",
+        "workOn": "Laravel, Angular",
+        "userImg": "robert-2.png",
+        "salary": "1038,536",
+        "status": "45",
+        "progress": "info"
+      },
+      {
+        "id": 3,
+        "title": "Daniel White",
+        "workOn": "Python,MySQL",
+        "userImg": "robert-3.png",
+        "salary": "11,536",
+        "status": "56",
+        "progress": "success"
+      },
+      {
+        "id": 4,
+        "title": "Chris Barin",
+        "workOn": "Wordpress",
+        "userImg": "robert-4.png",
+        "salary": "11,536",
+        "status": "87",
+        "progress": "secondary"
+      },
+      {
+        "id": 5,
+        "title": "Daniel Pink",
+        "workOn": "Photoshop",
+        "userImg": "robert-5.png",
+        "salary": "11,236",
+        "status": "45",
+        "progress": "warning"
+      },
+      {
+        "id": 6,
+        "title": "Shane Pollard",
+        "workOn": "Illustrator",
+        "userImg": "robert-1.png",
+        "salary": "10536",
+        "status": "96",
+        "progress": "warning"
+      }
+    ]
+  },
+  "memberProgressDataOld": {
+    "today": [
+      {
+        "id": 1,
+        "title": "Google",
+        "userImg": "google",
+        "visitors": "23,397",
+        "pageView": "12,201",
+        "revenue": "$5,536",
+        "status": "75",
+        "progress": "primary"
+      },
+      {
+        "id": 2,
+        "title": "Facebook",
+        "userImg": "facebook-f",
+        "visitors": "23,397",
+        "pageView": "12,201",
+        "revenue": "$5,536",
+        "status": "65",
+        "progress": "facebook"
+      },
+      {
+        "id": 3,
+        "title": "Twitter",
+        "userImg": "twitter",
+        "visitors": "23,397",
+        "pageView": "12,201",
+        "revenue": "$5,536",
+        "status": "95",
+        "progress": "twitter"
+      },
+      {
+        "id": 4,
+        "title": "Linkedin",
+        "userImg": "linkedin-alt",
+        "visitors": "23,397",
+        "pageView": "12,201",
+        "revenue": "$5,536",
+        "status": "65",
+        "progress": "linkedin"
+      },
+      {
+        "id": 5,
+        "title": "Instagram",
+        "userImg": "instagram",
+        "visitors": "23,397",
+        "pageView": "12,201",
+        "revenue": "$5,536",
+        "status": "50",
+        "progress": "instagram"
+      }
+    ],
+    "week": [{
+      "id": 1,
+      "title": "Google",
+      "userImg": "google",
+      "visitors": "397",
+      "pageView": "12,201",
+      "revenue": "$5,536",
+      "status": "45",
+      "progress": "primary"
+    },
+    {
+      "id": 2,
+      "title": "Facebook",
+      "userImg": "facebook-f",
+      "visitors": "1000",
+      "pageView": "12,201",
+      "revenue": "$5,536",
+      "status": "55",
+      "progress": "facebook"
+    },
+    {
+      "id": 3,
+      "title": "Twitter",
+      "userImg": "twitter",
+      "visitors": "25275",
+      "pageView": "12,201",
+      "revenue": "$5,536",
+      "status": "85",
+      "progress": "twitter"
+    },
+    {
+      "id": 4,
+      "title": "Linkedin",
+      "userImg": "linkedin-alt",
+      "visitors": "487",
+      "pageView": "12,201",
+      "revenue": "$5,536",
+      "status": "75",
+      "progress": "linkedin"
+    },
+    {
+      "id": 5,
+      "title": "Instagram",
+      "userImg": "instagram",
+      "visitors": "9545",
+      "pageView": "12,201",
+      "revenue": "$5,536",
+      "status": "40",
+      "progress": "instagram"
+    }
+    ],
+    "month": [{
+      "id": 1,
+      "title": "Google",
+      "userImg": "google",
+      "visitors": "578575",
+      "pageView": "587578",
+      "revenue": "$5,536",
+      "status": "45",
+      "progress": "primary"
+    },
+    {
+      "id": 2,
+      "title": "Facebook",
+      "userImg": "facebook-f",
+      "visitors": "75755",
+      "pageView": "15785",
+      "revenue": "$5,536",
+      "status": "95",
+      "progress": "facebook"
+    },
+    {
+      "id": 3,
+      "title": "Twitter",
+      "userImg": "twitter",
+      "visitors": "5875785",
+      "pageView": "54675",
+      "revenue": "$5,536",
+      "status": "35",
+      "progress": "twitter"
+    },
+    {
+      "id": 4,
+      "title": "Linkedin",
+      "userImg": "linkedin-alt",
+      "visitors": "23,397",
+      "pageView": "12,201",
+      "revenue": "$5,536",
+      "status": "75",
+      "progress": "linkedin"
+    },
+    {
+      "id": 5,
+      "title": "Instagram",
+      "userImg": "instagram",
+      "visitors": "23,397",
+      "pageView": "12,201",
+      "revenue": "$5,536",
+      "status": "80",
+      "progress": "instagram"
+    }
+    ]
+  },
+  "memberProgressData_3": {
+    "today": [{
+        "id": 1,
+        "title": "Facebook",
+        "workOn": "ReactJs, HTML",
+        "userImg": "robert-1.png",
+        "salary": "108,536",
+        "status": "75",
+        "progress": "primary"
+      },
+      {
+        "id": 2,
+        "title": "Instragram",
+        "workOn": "Laravel, Angular",
+        "userImg": "robert-2.png",
+        "salary": "1038,536",
+        "status": "65",
+        "progress": "danger"
+      },
+      {
+        "id": 3,
+        "title": "WhatsApp",
+        "workOn": "Python,MySQL",
+        "userImg": "robert-3.png",
+        "salary": "11,536",
+        "status": "95",
+        "progress": "success"
+      },
+      {
+        "id": 4,
+        "title": "Twitter",
+        "workOn": "Wordpress",
+        "userImg": "robert-4.png",
+        "salary": "11,536",
+        "status": "65",
+        "progress": "secondary"
+      },
+      {
+        "id": 5,
+        "title": "YouTube",
+        "workOn": "Photoshop",
+        "userImg": "robert-5.png",
+        "salary": "11,236",
+        "status": "50",
+        "progress": "warning"
+      },
+      {
+        "id": 6,
+        "title": "LinkedIn",
+        "workOn": "Illustrator",
+        "userImg": "robert-1.png",
+        "salary": "10536",
+        "status": "55",
+        "progress": "info"
+      }
+    ]
+  },
+  "resentSeller": {
+    "today": [{
+        "id": "1",
+        "title": "Robert Clinton",
+        "company": "Samsung",
+        "device": "Smart Phone",
+        "userImg": "10.png",
+        "price": "38,536",
+        "status": "done"
+      },
+      {
+        "id": "2",
+        "title": "Michael Johnson",
+        "company": "Samsung",
+        "device": "Smart Phone",
+        "userImg": "11.png",
+        "price": "38,536",
+        "status": "done"
+      },
+      {
+        "id": "3",
+        "title": "Daniel White",
+        "company": "Samsung",
+        "device": "Smart Phone",
+        "userImg": "12.png",
+        "price": "38,536",
+        "status": "pending"
+      },
+      {
+        "id": "4",
+        "title": "Chris Barin",
+        "company": "Samsung",
+        "device": "Smart Phone",
+        "userImg": "13.png",
+        "price": "38,536",
+        "status": "done"
+      }
+    ],
+    "week": [{
+        "id": "1",
+        "title": "Robert Clinton",
+        "company": "Samsung",
+        "device": "Smart Phone",
+        "userImg": "10.png",
+        "price": "38,536",
+        "status": "done"
+      },
+      {
+        "id": "2",
+        "title": "Michael Johnson",
+        "company": "Samsung",
+        "device": "Smart Phone",
+        "userImg": "11.png",
+        "price": "38,536",
+        "status": "done"
+      },
+      {
+        "id": "3",
+        "title": "Daniel White",
+        "company": "Samsung",
+        "device": "Smart Phone",
+        "userImg": "12.png",
+        "price": "38,536",
+        "status": "pending"
+      },
+      {
+        "id": "4",
+        "title": "Chris Barin",
+        "company": "Samsung",
+        "device": "Smart Phone",
+        "userImg": "13.png",
+        "price": "38,536",
+        "status": "done"
+      }
+    ],
+    "year": [{
+        "id": "1",
+        "title": "Robert Clinton",
+        "company": "Samsung",
+        "device": "Smart Phone",
+        "userImg": "10.png",
+        "price": "38,536",
+        "status": "done"
+      },
+      {
+        "id": "2",
+        "title": "Michael Johnson",
+        "company": "Samsung",
+        "device": "Smart Phone",
+        "userImg": "11.png",
+        "price": "38,536",
+        "status": "done"
+      },
+      {
+        "id": "3",
+        "title": "Daniel White",
+        "company": "Samsung",
+        "device": "Smart Phone",
+        "userImg": "12.png",
+        "price": "38,536",
+        "status": "pending"
+      },
+      {
+        "id": "4",
+        "title": "Chris Barin",
+        "company": "Samsung",
+        "device": "Smart Phone",
+        "userImg": "13.png",
+        "price": "38,536",
+        "status": "done"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "time": 1587041636455,
+    "name": "Duran Clayton",
+    "designation": "CEO & Founder",
+    "stared": false,
+    "country": "San Fransisco, CA",
+    "company": "Supertech ltd",
+    "email": "duran@example.com",
+    "img": "tm1.png",
+    "joining": "11 Jun 2020",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "time": 1587041711525,
+    "name": "David Milar",
+    "designation": "Lead Developer",
+    "stared": true,
+    "country": "San Fransisco, CA",
+    "company": "Realestate Solution",
+    "email": "davdid@example.com",
+    "img": "tm2.png",
+    "joining": "31 May 2021"
+ ,   "status": "deactive"
+  },
+  {
+    "id": 3,
+    "time": 1587041758255,
+    "name": "Tom Curan",
+    "designation": "UI/UX Designer",
+    "stared": true,
+    "country": "San Fransisco, CA",
+    "company": "Business Insider",
+    "email": "tomcuran@example.com",
+    "img": "tm3.png",
+    "joining": "01 Apr 2021"
+,    "status": "blocked"
+  },
+  {
+    "id": 4,
+    "time": 1587041856695,
+    "name": "Stuard Broad",
+    "designation": "Frontend Architect",
+    "stared": false,
+    "country": "San Fransisco, CA",
+    "company": "Tech Development",
+    "email": "stuardb@example.com",
+    "img": "tm4.png",
+    "joining": "31 May 2021",
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "time": 1587041880519,
+    "name": "Crish Moris",
+    "designation": "Backend Developer",
+    "stared": false,
+    "country": "San Fransisco, CA",
+    "company": "Akaz Manufacturer",
+    "email": "chrismoric@example.com",
+    "img": "tm5.png",
+    "joining": "15 Feb 2021",
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "time": 1587041932783,
+    "name": "Salman But",
+    "designation": "Software Engineer",
+    "stared": false,
+    "country": "San Fransisco, CA",
+    "company": "Business GOI",
+    "email": "salmanbett@example.com",
+    "img": "tm6.png",
+    "joining": "21 Dec 2017",
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "time": 1587041957926,
+    "name": "Mohammad Amir",
+    "designation": "Graphics Developer",
+    "stared": false,
+    "country": "San Fransisco, CA",
+    "company": "Aircnc Limited",
+    "email": "mohaamir@example.com",
+    "img": "tm7.png",
+    "joining": "31 May 2021",
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "time": 1587041979566,
+    "name": "Musfiqur Rohim",
+    "designation": "Support Engineer",
+    "stared": false,
+    "country": "San Fransisco, CA",
+    "company": "Sovware Incorporate",
+    "email": "mushiro@example.com",
+    "img": "tm8.png",
+    "joining": "11 May 2018",
+    "status": "active"
+  }
+]

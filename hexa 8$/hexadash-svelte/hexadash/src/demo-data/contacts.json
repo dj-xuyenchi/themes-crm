@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Duran Clayton",
+        "designation": "CEO & Founder",
+        "country": "San Fransisco, CA",
+        "email": "duran@example.com",
+        "img": "tm1.png",
+        "phone": "+1 (824) 487-2755",
+        "favoirte":true,
+        "company": "Business Development"
+    },
+    {
+        "name": "David Milar",
+        "designation": "Lead Developer",
+        "country": "San Fransisco, CA",
+        "email": "davdid@example.com",
+        "img": "tm3.png",
+        "phone": "+1 (824) 487-2755",
+        "favoirte":false,
+        "company": "Business Development"
+    },
+    {
+        "name": "Tom Curan",
+        "designation": "UI/UX Designer",
+        "country": "San Fransisco, CA",
+        "email": "tomcuran@example.com",
+        "img": "tm4.png",
+        "phone": "+1 (824) 487-2755",
+        "favoirte":true,
+        "company": "Business Development"
+    },
+    {
+        "name": "Stuard Broad",
+        "designation": "Frontend Architect",
+        "country": "San Fransisco, CA",
+        "email": "stuardb@example.com",
+        "img": "tm5.png",
+        "phone": "+1 (824) 487-2755",
+        "favoirte":false,
+        "company": "Business Development"
+    },
+    {
+        "name": "Crish Moris",
+        "designation": "Backend Developer",
+        "country": "San Fransisco, CA",
+        "email": "chrismoric@example.com",
+        "img": "tm8.png",
+        "phone": "+1 (824) 487-2755",
+        "favoirte":true,
+        "company": "Business Development"
+    },
+    {
+        "name": "Salman Bet",
+        "designation": "Software Engineer",
+        "country": "San Fransisco, CA",
+        "email": "salmanbett@example.com",
+        "img": "tm2.png",
+        "phone": "+1 (824) 487-2755",
+        "favoirte":false,
+        "company": "Business Development"
+    },
+    {
+        "name": "Mohammad Amir",
+        "designation": "Graphics Developer",
+        "country": "San Fransisco, CA",
+        "email": "mohaamir@example.com",
+        "img": "tm7.png",
+        "phone": "+1 (824) 487-2755",
+        "favoirte":true,
+        "company": "Business Development"
+    },
+    {
+        "name": "Musfiqur Rehim",
+        "designation": "Support Engineer",
+        "country": "San Fransisco, CA",
+        "email": "mushiro@example.com",
+        "img": "tm6.png",
+        "phone": "+1 (824) 487-2755",
+        "favoirte":false,
+        "company": "Business Development"
+    }
+]

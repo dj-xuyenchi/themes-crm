@@ -1,0 +1,106 @@
+{
+  "today": [{
+      "location": "United States",
+      "order": "97",
+      "revenue": "$536"
+    },
+    {
+      "location": "United Kingdom",
+      "order": "20",
+      "revenue": "$748"
+    },
+    {
+      "location": "Canada",
+      "order": "10",
+      "revenue": "$415"
+    },
+    {
+      "location": "China",
+      "order": "18",
+      "revenue": "$963"
+    },
+    {
+      "location": "Japan",
+      "order": "74",
+      "revenue": "$478"
+    }
+  ],
+  "week": [{
+      "location": "United States",
+      "order": "397",
+      "revenue": "$38,536"
+    },
+    {
+      "location": "United Kingdom",
+      "order": "420",
+      "revenue": "$45,748"
+    },
+    {
+      "location": "Canada",
+      "order": "210",
+      "revenue": "$96,415"
+    },
+    {
+      "location": "China",
+      "order": "108",
+      "revenue": "$25,963"
+    },
+    {
+      "location": "Japan",
+      "order": "154",
+      "revenue": "$12,755"
+    }
+  ],
+  "month": [{
+      "location": "United States",
+      "order": "797",
+      "revenue": "$78,536"
+    },
+    {
+      "location": "United Kingdom",
+      "order": "920",
+      "revenue": "$95,748"
+    },
+    {
+      "location": "Canada",
+      "order": "710",
+      "revenue": "$99,415"
+    },
+    {
+      "location": "China",
+      "order": "608",
+      "revenue": "$95,963"
+    },
+    {
+      "location": "Japan",
+      "order": "457",
+      "revenue": "$45,754"
+    }
+  ],
+  "year": [{
+      "location": "United States",
+      "order": "1397",
+      "revenue": "$308,536"
+    },
+    {
+      "location": "United Kingdom",
+      "order": "1420",
+      "revenue": "$405,748"
+    },
+    {
+      "location": "Canada",
+      "order": "1210",
+      "revenue": "$100,415"
+    },
+    {
+      "location": "China",
+      "order": "1508",
+      "revenue": "$250,963"
+    },
+    {
+      "location": "Japan",
+      "order": "4864",
+      "revenue": "$748,454"
+    }
+  ]
+}

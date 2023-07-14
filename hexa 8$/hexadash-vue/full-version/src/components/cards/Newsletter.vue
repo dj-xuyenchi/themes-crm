@@ -1,0 +1,21 @@
+<template>
+  <NewsletterStyle>
+    <div class="newsletter-content">
+      <h4>Subscribe To Our Newsletter</h4>
+      <p>We notify you once any post is published</p>
+      <sdButton type="primary" size="sm">Subscribe</sdButton>
+    </div>
+    <div class="newsletter-shape">
+      <img :src="require('@/static/img/new-message.png')" alt="" />
+    </div>
+  </NewsletterStyle>
+</template>
+<script>
+import { defineComponent } from "vue";
+import { NewsletterStyle } from "./style";
+
+export default defineComponent({
+  components: { NewsletterStyle },
+  setup() {},
+});
+</script>

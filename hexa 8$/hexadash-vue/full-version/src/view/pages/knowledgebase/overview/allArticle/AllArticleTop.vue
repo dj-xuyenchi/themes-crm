@@ -1,0 +1,3 @@
+<template>
+    All Articles
+</template>

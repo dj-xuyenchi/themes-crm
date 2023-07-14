@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "time": 1587041636455,
+    "title": "Dashboard UI",
+    "company": "San Francisco, CA",
+    "status": "active",
+    "content": "Lorem ipsum dolor amet, consetetur sadipscing elitr sed diam",
+    "groupImg": "ugl1.png",
+    "members": ["tm1.png", "tm2.png", "tm3.png", "tm4.png", "tm5.png"],
+    "projectName": "Plugin Development",
+    "progress": 67
+  },
+  {
+    "id": 2,
+    "time": 1587041711525,
+    "title": "Component Library",
+    "company": "San Francisco, CA",
+    "status": "active",
+    "content": "Lorem ipsum dolor amet, consetetur sadipscing elitr sed diam",
+    "groupImg": "ugl2.png",
+    "members": ["tm1.png", "tm2.png", "tm3.png", "tm4.png", "tm5.png", "tm6.png", "tm7.png"],
+    "projectName": "Theme Development",
+    "progress": 34
+  },
+  {
+    "id": 3,
+    "time": 1587041758255,
+    "title": "Component Library",
+    "company": "San Francisco, CA",
+    "status": "active",
+    "content": "Lorem ipsum dolor amet, consetetur sadipscing elitr sed diam",
+    "groupImg": "ugl3.png",
+    "members": ["tm1.png", "tm2.png", "tm3.png", "tm4.png"],
+    "projectName": "Dashboard Template UI",
+    "progress": 92
+  },
+  {
+    "id": 4,
+    "time": 1587041856695,
+    "title": "Dashboard UI",
+    "company": "San Francisco, CA",
+    "status": "active",
+    "content": "Lorem ipsum dolor amet, consetetur sadipscing elitr sed diam",
+    "groupImg": "ugl4.png",
+    "members": ["tm1.png", "tm2.png", "tm3.png", "tm4.png", "tm5.png", "tm6.png"],
+    "projectName": "Plugin Third-party Integration",
+    "progress": 55
+  },
+  {
+    "id": 5,
+    "time": 1587041880519,
+    "title": "Dashboard UI",
+    "company": "San Francisco, CA",
+    "status": "active",
+    "content": "Lorem ipsum dolor amet, consetetur sadipscing elitr sed diam",
+    "groupImg": "ugl5.png",
+    "members": ["tm1.png", "tm2.png", "tm3.png", "tm4.png", "tm5.png"],
+    "projectName": "Develop New UI/UX",
+    "progress": 71
+  },
+  {
+    "id": 6,
+    "time": 1587041932783,
+    "title": "Dashboard UI",
+    "company": "San Francisco, CA",
+    "status": "active",
+    "content": "Lorem ipsum dolor amet, consetetur sadipscing elitr sed diam",
+    "groupImg": "ugl6.png",
+    "members": ["tm1.png", "tm2.png", "tm3.png", "tm4.png", "tm5.png", "tm6.png", "tm7.png"],
+    "projectName": "Client Support Forum",
+    "progress": 34
+  },
+  {
+    "id": 7,
+    "time": 1587041957926,
+    "title": "Dashboard UI",
+    "company": "San Francisco, CA",
+    "status": "active",
+    "content": "Lorem ipsum dolor amet, consetetur sadipscing elitr sed diam",
+    "groupImg": "ugl1.png",
+    "members": ["tm1.png", "tm2.png", "tm3.png", "tm4.png", "tm5.png", "tm6.png"],
+    "projectName": "AI Data Analysis",
+    "progress": 60
+  },
+  {
+    "id": 8,
+    "time": 1587041979566,
+    "title": "Dashboard UI",
+    "company": "San Francisco, CA",
+    "status": "active",
+    "content": "Lorem ipsum dolor amet, consetetur sadipscing elitr sed diam",
+    "groupImg": "ugl2.png",
+    "members": ["tm1.png", "tm2.png", "tm3.png", "tm4.png", "tm5.png"],
+    "projectName": "Visual Effect Editing",
+    "progress": 82
+  },
+  {
+    "id": 9,
+    "time": 1587041979569,
+    "title": "Dashboard UI",
+    "company": "San Francisco, CA",
+    "status": "active",
+    "content": "Lorem ipsum dolor amet, consetetur sadipscing elitr sed diam",
+    "groupImg": "ugl3.png",
+    "members": ["tm1.png", "tm2.png", "tm3.png", "tm4.png", "tm5.png", "tm6.png", "tm7.png"],
+    "projectName": "Generating Custom Leads",
+    "progress": 43
+  }
+]

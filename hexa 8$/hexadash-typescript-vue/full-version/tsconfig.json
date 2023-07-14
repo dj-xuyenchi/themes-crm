@@ -1,0 +1,18 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "include": ["vite.config.*", "vitest.config.*", "cypress.config.*", "playwright.config.*", "themeVariables.ts", "themeConfigure.ts", "src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/demoData/*.json", "src/config/**/*.json", "types/*.d.ts"],
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "target": "es2017",
+    "lib": ["es2017", "dom"],
+    "composite": true,
+    "types": ["node"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "files": ["env.d.ts"]
+}

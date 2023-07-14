@@ -1,0 +1,1102 @@
+<nav class="navbar navbar-light">
+    <div class="navbar-left">
+        <div class="logo-area">
+            <a class="navbar-brand" href="<%- locals.base %>dashboard/demo-one/<%- locale %>">
+                <img class="dark" src="<%- locals.base %>img/logo_dark.svg" alt="svg">
+                <img class="light" src="<%- locals.base %>img/logo_white.svg" alt="img">
+            </a>
+            <a href="#" class="sidebar-toggle">
+                <img class="svg" src="<%- locals.base %>img/svg/align-center-alt.svg" alt="img"></a>
+        </div>        
+        <div class="top-menu">
+            <div class="hexadash-top-menu position-relative">
+                <ul>
+                    <li class="has-subMenu">
+                        <a href="#" class="<%- name === 'demo_one' || name === 'demo_two' || name === 'demo_three'
+                        || name === 'demo_four' || name === 'demo_five' ?'active':'' %>">Dashboard</a>
+                        <ul class="subMenu">
+                            <li>
+                                <a href="<%- locals.base %>dashboard/demo-one/<%- locale %>" class="<%- name === 'demo_one' ? 'active':'' %>"><%- __('dashboard-demo-one') %></a>
+                            </li>
+                            <li >
+                                <a href="<%- locals.base %>dashboard/demo-two/<%- locale %>" class="<%- name === 'demo_two' ? 'active':'' %>"><%- __('dashboard-demo-two') %></a>
+                            </li>
+                            <li >
+                                <a href="<%- locals.base %>dashboard/demo-three/<%- locale %>" class="<%- name === 'demo_three' ? 'active':'' %>"><%- __('dashboard-demo-three') %></a>
+                            </li>
+                            <li >
+                                <a href="<%- locals.base %>dashboard/demo-four/<%- locale %>" class="<%- name === 'demo_four' ? 'active':'' %>"><%- __('dashboard-demo-four') %></a>
+                            </li>
+                            <li >
+                                <a href="<%- locals.base %>dashboard/demo-five/<%- locale %>" class="<%- name === 'demo_five' ? 'active':'' %>">
+                                    <%- __('dashboard-demo-five') %></a>
+                            </li>
+                            <li >
+                                <a href="<%- locals.base %>dashboard/demo-six/<%- locale %>" class="<%- name === 'demo_six' ? 'active':'' %>">
+                                    <%- __('dashboard-demo-six') %></a>
+                            </li>
+                            <li >
+                                <a href="<%- locals.base %>dashboard/demo-seven/<%- locale %>" class="<%- name === 'demo_seven' ? 'active':'' %>">
+                                    <%- __('dashboard-demo-seven') %></a>
+                            </li>
+                            <li >
+                                <a href="<%- locals.base %>dashboard/demo-eight/<%- locale %>" class="<%- name === 'demo_eight' ? 'active':'' %>">
+                                    <%- __('dashboard-demo-eight') %></a>
+                            </li>
+                            <li >
+                                <a href="<%- locals.base %>dashboard/demo-nine/<%- locale %>" class="<%- name === 'demo_nine' ? 'active':'' %>">
+                                    <%- __('dashboard-demo-nine') %></a>
+                            </li>
+                            <li >
+                                <a href="<%- locals.base %>dashboard/demo-ten/<%- locale %>" class="<%- name === 'demo_ten' ? 'active':'' %>">
+                                    <%- __('dashboard-demo-ten') %></a>
+                            </li>
+                        </ul>
+                    </li>                    
+                    <li class="has-subMenu">
+                        <a href="#" class="<%- name === 'inbox' || name === 'read' || name === 'chat' || name === 'products' || name === 'product_detail' || name === 'product_list' || name === 'add_product'
+                        || name === 'cart' || name === 'orders' || name === 'sellers' || name === 'calendar' || name === 'invoices' || name === 'projects' || name === 'project_detail' || name === 'project_create' || name === 'projects_table' || name === 'member' || name === 'user_card' || name === 'user_list'
+                        || name === 'user_card2' || name === 'user_group' || name === 'user_add' || name === 'user_table' || name === 'contact_grid' || name === 'contact_list' || name === 'contact_create' || name === 'kanban' || name === 'todo' || name === 'note' || name === 'import' || name === 'export' 
+                        || name === 'export_selected' || name === 'filemanager' || name === 'task' || name === 'bookmark' || name === 'profile' || name === 'profile_setting' || name === 'support_ticket' || name === 'support_detail' || name === 'support_new_ticket' || name === 'basic_table' || name === 'data_table' 
+                        || name === 'dynamic_table' || name === 'job_search' || name === 'job_detail' || name === 'job_apply' || name === 'job_search_list' ?'active':'' %>">Apps</a>
+                        <ul class="megaMenu-wrapper megaMenu-dropdown">
+                            <li>
+                                <ul>
+                                    <li class="has-subMenu-left">
+                                        <a href="#" class="<%- name === 'inbox' || name === 'read' ?'active':'' %>">
+                                            <img src="<%- locals.base %>img/svg/mail.svg" alt="mail" class="svg nav-icon">
+                                            <span class="menu-text">Email</span>
+                                        </a>
+                                        <ul class="subMenu">
+                                            <li>
+                                                <a class="<%- name === 'inbox' ?'active':'' %>" href="<%- locals.base %>application/email/inbox/<%- locale %>"><%- __('email-inbox') %></a>
+                                            </li>
+                                            <li>
+                                                <a class="<%- name === 'read' ?'active':'' %>" href="<%- locals.base %>application/email/read/<%- locale %>"><%- __('email-read') %></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>application/chat/<%- locale %>" class="<%- name === 'chat' ?'active':'' %>">
+                                            <img src="<%- locals.base %>img/svg/message-square.svg" alt="message-square" class="svg nav-icon">
+                                            <span class="menu-text"><%- __('chat-menu-title') %></span>
+                                            <span class="badge badge-success menuItem rounded-circle">3</span>
+                                        </a>
+                                    </li>
+                                    <li class="has-subMenu-left">
+                                        <a href="#" class="<%- name === 'products' || name === 'product_detail' || name === 'product_list' || name === 'add_product'
+                                        || name === 'cart' || name === 'orders' || name === 'sellers' || name === 'invoices' ?'active':'' %>">
+                                            <img src="<%- locals.base %>img/svg/shopping-cart.svg" alt="shopping-cart" class="svg nav-icon">
+                                            <span class="menu-text">eCommerce</span>
+                                        </a>
+                                        <ul class="subMenu">
+                                            <li>
+                                                <a href="<%- locals.base %>application/ecommerce/products/<%- locale %>" class="<%- name === 'products' ?'active':'' %>"><%- __('ecommerce-products') %></a>
+                                            </li>
+                                            <li>
+                                                <a href="<%- locals.base %>application/ecommerce/product-list/<%- locale %>" class="<%- name === 'product_list' ?'active':'' %>"><%- __('ecommerce-products-list') %></a>
+                                            </li>
+                                            <li>
+                                                <a href="<%- locals.base %>application/ecommerce/product-detail/<%- locale %>" class="<%- name === 'product_detail' ?'active':'' %>"><%- __('ecommerce-product-details') %></a>
+                                            </li>
+                                            <li>
+                                                <a href="<%- locals.base %>application/ecommerce/add-product/<%- locale %>" class="<%- name === 'add_product' ?'active':'' %>"><%- __('ecommerce-product-add') %></a>
+                                            </li>
+                                            <li>
+                                                <a href="<%- locals.base %>application/ecommerce/cart/<%- locale %>" class="<%- name === 'cart' ?'active':'' %>"><%- __('ecommerce-cart') %></a>
+                                            </li>
+                                            <li>
+                                                <a href="<%- locals.base %>application/ecommerce/orders/<%- locale %>" class="<%- name === 'orders' ?'active':'' %>"><%- __('ecommerce-orders') %></a>
+                                            </li>
+                                            <li>
+                                                <a href="<%- locals.base %>application/ecommerce/sellers/<%- locale %>" class="<%- name === 'sellers' ?'active':'' %>"><%- __('ecommerce-sellers') %></a>
+                                            </li>
+                                            <li>
+                                                <a href="<%- locals.base %>application/ecommerce/invoices/<%- locale %>" class="<%- name === 'invoices' ?'active':'' %>"><%- __('ecommerce-invoices') %></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-subMenu-left">
+                                        <a href="#" class="<%- name === 'projects' || name === 'project_detail' || name === 'project_create' || name === 'projects_table' ?'active':'' %>">
+                                            <span class="nav-icon uil uil-folder"></span>
+                                            <span class="menu-text"><%- __('project-menu-title') %></span>                                            
+                                        </a>
+                                        <ul class="subMenu">
+                                            <li>
+                                                <a href="<%- locals.base %>application/project/list/<%- locale %>" class="<%- name === 'projects' ?'active':'' %>"><%- __('project-grid') %></a>
+                                            </li>
+                                            <li>
+                                                <a href="<%- locals.base %>application/project/table/<%- locale %>" class="<%- name === 'projects_table' ?'active':'' %>"><%- __('project-list') %></a>
+                                            </li>
+                                            <li>
+                                                <a href="<%- locals.base %>application/project/detail/<%- locale %>" class="<%- name === 'project_detail' ?'active':'' %>"><%- __('project-detail') %></a>
+                                            </li>
+                                            <li>
+                                                <a href="<%- locals.base %>application/project/create/<%- locale %>" class="<%- name === 'project_create' ?'active':'' %>"><%- __('project-create') %></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>application/calendar/<%- locale %>" class="<%- name === 'calendar' ?'active':'' %>">
+                                            <span class="nav-icon uil uil-calendar-alt"></span>
+                                            <span class="menu-text"><%- __('calendar-menu-title') %></span>
+                                        </a>
+                                    </li>
+                                    <li class="has-subMenu-left">
+                                        <a href="#" class="<%- name === 'member' || name === 'user_card' || name === 'user_list'
+                                            || name === 'user_card2' || name === 'user_group' || name === 'user_add' || name === 'user_table' ?'active':'' %>">
+                                                <span class="nav-icon uil uil-users-alt"></span>
+                                                <span class="menu-text"><%- __('user-menu-title') %></span>                                                
+                                            </a>
+                                            <ul class="subMenu">
+                                                <li>
+                                                    <a href="<%- locals.base %>application/user/member/<%- locale %>" class="<%- name === 'member' ?'active':'' %>"><%- __('user-team') %></a>
+                                                </li>
+                                                <li>
+                                                    <a href="<%- locals.base %>application/user/grid/<%- locale %>" class="<%- name === 'user_card' ?'active':'' %>"><%- __('user-grid') %></a>
+                                                </li>
+                                                <li>
+                                                    <a href="<%- locals.base %>application/user/list/<%- locale %>" class="<%- name === 'user_list' ?'active':'' %>"><%- __('user-list') %></a>
+                                                </li>
+                                                <li>
+                                                    <a href="<%- locals.base %>application/user/grid2/<%- locale %>" class="<%- name === 'user_card2' ?'active':'' %>"><%- __('user-grid-style') %></a>
+                                                </li>
+                                                <li>
+                                                    <a href="<%- locals.base %>application/user/group/<%- locale %>" class="<%- name === 'user_group' ?'active':'' %>"><%- __('user-group') %></a>
+                                                </li>
+                                                <li>
+                                                    <a href="<%- locals.base %>application/user/add/<%- locale %>" class="<%- name === 'user_add' ?'active':'' %>"><%- __('user-add') %></a>
+                                                </li>
+                                                <li>
+                                                    <a href="<%- locals.base %>application/user/table/<%- locale %>" class="<%- name === 'user_table' ?'active':'' %>"><%- __('user-table') %></a>
+                                                </li>
+                                            </ul>
+                                    </li>
+                                    <li class="has-subMenu-left">
+                                        <a href="#" class="<%- name === 'contact_grid' || name === 'contact_list' || name === 'contact_create' ?'active':'' %>">
+                                            <span class="nav-icon uil uil-at"></span>
+                                            <span class="menu-text"><%- __('contact-menu-title') %></span>                                            
+                                        </a>
+                                        <ul class="subMenu">
+                                            <li>
+                                                <a class="<%- name === 'contact_grid' ?'active':'' %>" href="<%- locals.base %>application/contact/grid/<%- locale %>"><%- __('contact-grid') %></a>
+                                            </li>
+                                            <li>
+                                                <a class="<%- name === 'contact_list' ?'active':'' %>" href="<%- locals.base %>application/contact/list/<%- locale %>"><%- __('contact-list') %></a>
+                                            </li>
+                                            <li>
+                                                <a class="<%- name === 'contact_create' ?'active':'' %>" href="<%- locals.base %>application/contact/create/<%- locale %>"><%- __('contact-create') %></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>application/note/<%- locale %>" class="<%- name === 'note' ?'active':'' %>">
+                                            <span class="nav-icon uil uil-clipboard-notes"></span>
+                                            <span class="menu-text"><%- __('note-menu-title') %></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>application/todo/<%- locale %>" class="<%- name === 'todo' ?'active':'' %>">
+                                            <span class="nav-icon uil uil-check-square"></span>
+                                            <span class="menu-text"><%- __('To-Do') %></span>
+                                        </a>
+                                    </li>                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li>
+                                        <a href="<%- locals.base %>application/kanban/<%- locale %>" class="<%- name === 'kanban' ?'active':'' %>">
+                                            <span class="nav-icon uil uil-expand-arrows"></span>
+                                            <span class="menu-text"><%- __('kanban-menu-title') %></span>
+                                        </a>
+                                    </li>
+                                    <li class="has-subMenu-left">
+                                        <a href="#" class="<%- name === 'import' || name === 'export' || name === 'export_selected' ?'active':'' %>">
+                                            <span class="nav-icon uil uil-exchange"></span>
+                                            <span class="menu-text"><%- __('ie-menu-title') %></span>                                            
+                                        </a>
+                                        <ul class="subMenu">
+                                            <li>
+                                                <a class="<%- name === 'import' ?'active':'' %>" href="<%- locals.base %>application/import/<%- locale %>"><%- __('ie-import') %></a>
+                                            </li>
+                                            <li>
+                                                <a class="<%- name === 'export' ?'active':'' %>" href="<%- locals.base %>application/export/<%- locale %>"><%- __('ie-export') %></a>
+                                            </li>
+                                            <li>
+                                                <a class="<%- name === 'export_selected' ?'active':'' %>" href="<%- locals.base %>application/export-selected/<%- locale %>"><%- __('ie-export-selected') %></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>application/filemanager/<%- locale %>" class="<%- name === 'filemanager' ?'active':'' %>">
+                                            <span class="nav-icon uil uil-repeat"></span>
+                                            <span class="menu-text"><%- __('filemanager-menu-title') %></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>application/task/<%- locale %>" class="<%- name === 'task' ?'active':'' %>">
+                                            <span class="nav-icon uil uil-lightbulb-alt"></span>
+                                            <span class="menu-text"><%- __('task-menu-title') %></span>
+                            
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>application/bookmark/<%- locale %>" class="<%- name === 'bookmark' ?'active':'' %>">
+                                            <span class="nav-icon uil uil-bookmark"></span>
+                                            <span class="menu-text"><%- __('bookmark-menu-title') %></span>
+                                        </a>
+                                    </li>
+                                    <!-- <li class="has-subMenu-left">
+                                        <a href="#" class="<%- name === 'profile' || name === 'profile_setting' ?'active':'' %>">
+                                            <span class="nav-icon uil uil-apps"></span>
+                                            <span class="menu-text"><%- __('social-menu-title') %></span>                                            
+                                        </a>
+                                        <ul class="subMenu">
+                                            <li class="nav-item">
+                                                <a href="<%- locals.base %>application/social/profile/<%- locale %>" class="<%- name === 'profile' ?'active':'' %>"><%- __('social-profile') %></a>
+                                            </li>
+                                            <li>
+                                                <a href="<%- locals.base %>application/social/profile-setting/<%- locale %>" class="<%- name === 'profile_setting' ?'active':'' %>"><%- __('social-profile-setting') %></a>
+                                            </li>
+                                        </ul>
+                                    </li> -->
+                                    <li class="has-subMenu-left">
+                                        <a href="#" class="<%- name === 'support_ticket' || name === 'support_detail' || name === 'support_new_ticket' ?'active':'' %>">
+                                            <span class="nav-icon uil uil-user"></span>
+                                            <span class="menu-text"><%- __('support-menu-title') %></span>                                            
+                                        </a>
+                                        <ul class="subMenu">
+                                            <li>
+                                                <a class="<%- name === 'support_ticket' ?'active':'' %>" href="<%- locals.base %>application/support/ticket/<%- locale %>"><%- __('support-ticket') %></a>
+                                            </li>
+                                            <li>
+                                                <a class="<%- name === 'support_detail' ?'active':'' %>" href="<%- locals.base %>application/support/detail/<%- locale %>"><%- __('support-ticket-detail') %></a>
+                                            </li>
+                                            <li>
+                                                <a class="<%- name === 'support_new_ticket' ?'active':'' %>" href="<%- locals.base %>application/support/new-ticket/<%- locale %>"><%- __('support-new-ticket') %></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-subMenu-left">
+                                        <a href="#" class="<%- name === 'job_search' || name === 'job_detail' || name === 'job_apply' || name === 'job_search_list' ?'active':'' %>">
+                                            <span class="nav-icon uil uil-search"></span>
+                                            <span class="menu-text"><%- __('job-menu-title') %></span>                                            
+                                        </a>
+                                        <ul class="subMenu">
+                                            <li>
+                                                <a class="<%- name === 'job_search' ?'active':'' %>" href="<%- locals.base %>application/job/search/<%- locale %>"><%- __('job-search') %></a>
+                                            </li>
+                                            <li>
+                                                <a class="<%- name === 'job_search_list' ?'active':'' %>" href="<%- locals.base %>application/job/search/list/<%- locale %>"><%- __('job-search-list') %></a>
+                                            </li>
+                                            <li>
+                                                <a class="<%- name === 'job_detail' ?'active':'' %>" href="<%- locals.base %>application/job/detail/<%- locale %>"><%- __('job-detail') %></a>
+                                            </li>
+                                            <li>
+                                                <a class="<%- name === 'job_apply' ?'active':'' %>" href="<%- locals.base %>application/job/apply/<%- locale %>"><%- __('job-apply') %></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-subMenu-left">
+                                        <a href="#" class="<%- name === 'basic_table' || name === 'data_table' || name === 'dynamic_table' ? 'active':'' %>">
+                                            <span class="nav-icon uil uil-table"></span>
+                                            <span class="menu-text"><%- __('table-menu-title') %></span>                                            
+                                        </a>
+                                        <ul class="subMenu">
+                                            <!-- <li>
+                                                <a href="<%- locals.base %>feature/table/basic/<%- locale %>" class="<%- name === 'basic_table' ? 'active':'' %>"><%- __('table-basic') %></a>
+                                            </li> -->
+                                            <li>
+                                                <a href="<%- locals.base %>feature/table/datatable/<%- locale %>" class="<%- name === 'data_table' ? 'active':'' %>"><%- __('table-data') %></a>
+                                            </li>
+                                            <li>
+                                                <a href="<%- locals.base %>pages/dynamic-table/<%- locale %>" class="<%- name === 'dynamic_table' ? 'active':'' %>">                       
+                                                    <%- __('dynamic-table-menu-title') %>        
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-subMenu">
+                        <a href="#" class="<%- name === 'view-all' || name === 'create_customer' ?'active':'' %>">Crud</a>
+                        <ul class="subMenu">
+                            <li class="has-subMenu-left">
+                                <a href="#" class="<%- name === 'view-all' || name === 'create_customer' ?'active':'' %>">
+                                    <span class="nav-icon uil uil-database"></span>
+                                    <span class="menu-text"><%- __('customer-crud-menu-title') %></span>                                    
+                                </a>
+                                <ul class="subMenu">
+                                    <li>
+                                        <a class="<%- name === 'view-all' ?'active':'' %>" href="<%- locals.base %>customer/view-all/<%- locale %>"><%- __('customer-view-all') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'create_customer' ?'active':'' %>" href="<%- locals.base %>customer/create/<%- locale %>"><%- __('customer-add-new') %></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-subMenu">
+                        <a href="#" class="<%- name === 'editor' || name === 'unicon' || name === 'fontawesome' || name === 'lineawesome' || name === 'wizard_one' || name === 'wizard_two' 
+                        || name === 'wizard_three' || name === 'wizard_four' || name === 'wizard_five' || name === 'chart_widget' || name === 'mixed_widget' || name === 'card_widget' || name === 'google_map' || name === 'leaflet_map' 
+                        || name === 'vector_map' || name === 'basic_form' || name === 'form_layout' || name === 'form_element' 
+                        || name === 'form_component' || name === 'form_validations' || name === 'chartjs' || name === 'google_chart' || name === 'peity_chart' || name === 'base' || name === 'all_articles' || name === 'single_article' ? 'active':'' %>">Features</a>
+                        <ul class="subMenu">
+                            <li>
+                                <a href="<%- locals.base %>feature/editor/<%- locale %>" class="<%- name === 'editor' ? 'active':'' %>">
+                                    <span class="nav-icon uil uil-edit"></span>
+                                    <span class="menu-text"><%- __('editor-menu-title') %></span>
+                                </a>
+                            </li>
+                            <li class="has-subMenu-left">
+                                <a href="#" class="<%- name === 'unicon' || name === 'fontawesome' || name === 'lineawesome' ? 'active':'' %>">
+                                    <span class="nav-icon uil uil-grid"></span>
+                                    <span class="menu-text"><%- __('icon-menu-title') %></span>                                    
+                                </a>
+                                <ul class="subMenu">
+                                    <li>
+                                        <a href="<%- locals.base %>feature/icon/unicons/<%- locale %>" class="<%- name === 'unicon' ? 'active':'' %>"><%- __('icon-unicon') %></a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>feature/icon/fontawesome/<%- locale %>" class="<%- name === 'fontawesome' ? 'active':'' %>"><%- __('icon-awesome') %></a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>feature/icon/lineawesome/<%- locale %>" class="<%- name === 'lineawesome' ? 'active':'' %>"><%- __('icon-line') %></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-subMenu-left">
+                                <a href="#" class="<%- name === 'chartjs' || name === 'google_chart' || name === 'peity_chart' ? 'active':'' %>">
+                                    <span class="nav-icon uil uil-chart"></span>
+                                    <span class="menu-text"><%- __('chart-menu-title') %></span>                                    
+                                </a>
+                                <ul class="subMenu">
+                                    <li>
+                                        <a class="<%- name === 'chartjs' ? 'active':'' %>" href="<%- locals.base %>feature/chart/chartjs/<%- locale %>"><%- __('chart-js') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'google_chart' ? 'active':'' %>" href="<%- locals.base %>feature/chart/google-chart/<%- locale %>"><%- __('chart-google') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'peity_chart' ? 'active':'' %>" href="<%- locals.base %>feature/chart/peity-chart/<%- locale %>"><%- __('chart-peity') %></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-subMenu-left">
+                                <a href="#" class="<%- name === 'basic_form' || name === 'form_layout' || name === 'form_element' 
+                                || name === 'form_component' || name === 'form_validations' ? 'active':'' %>">
+                                    <span class="nav-icon uil uil-keyhole-circle"></span>
+                                    <span class="menu-text"><%- __('form-menu-title') %></span>                                    
+                                </a>
+                                <ul class="subMenu">
+                                    <li>
+                                        <a class="<%- name === 'basic_form' ? 'active':'' %>" href="<%- locals.base %>feature/form/basic-form/<%- locale %>"><%- __('form-basic') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'form_layout' ? 'active':'' %>" href="<%- locals.base %>feature/form/form-layout/<%- locale %>"><%- __('form-layout') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'form_element' ? 'active':'' %>" href="<%- locals.base %>feature/form/form-element/<%- locale %>"><%- __('form-element') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'form_component' ? 'active':'' %>" href="<%- locals.base %>feature/form/components/<%- locale %>"><%- __('form-component') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'form_validations' ? 'active':'' %>" href="<%- locals.base %>feature/form/validations/<%- locale %>"><%- __('form-validation') %></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-subMenu-left">
+                                <a href="#" class="<%- name === 'google_map' || name === 'leaflet_map' || name === 'vector_map' ? 'active':'' %>">
+                                    <span class="nav-icon uil uil-map"></span>
+                                    <span class="menu-text"><%- __('map-menu-title') %></span>                                    
+                                </a>
+                                <ul class="subMenu">
+                                    <li>
+                                        <a href="<%- locals.base %>feature/map/google/<%- locale %>" class="<%- name === 'google_map' ? 'active':'' %>"><%- __('map-google') %></a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>feature/map/leaflet/<%- locale %>" class="<%- name === 'leaflet_map' ? 'active':'' %>"><%- __('map-leaflet') %></a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>feature/map/vector/<%- locale %>" class="<%- name === 'vector_map' ? 'active':'' %>"><%- __('map-vector') %></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-subMenu-left">
+                                <a href="#" class="<%- name === 'chart_widget' || name === 'mixed_widget' || name === 'card_widget' ? 'active':'' %>">
+                                    <span class="nav-icon uil uil-server"></span>
+                                    <span class="menu-text"><%- __('widget-menu-title') %></span>                                    
+                                </a>
+                                <ul class="subMenu">
+                                    <!-- <li>
+                                        <a class="<%- name === 'chart_widget' ? 'active':'' %>" href="<%- locals.base %>feature/widget/chart/<%- locale %>"><%- __('widget-chart') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'mixed_widget' ? 'active':'' %>" href="<%- locals.base %>feature/widget/mixed/<%- locale %>"><%- __('widget-mixed') %></a>
+                                    </li> -->
+                                    <li>
+                                        <a class="<%- name === 'card_widget' ? 'active':'' %>" href="<%- locals.base %>feature/widget/card/<%- locale %>"><%- __('widget-card') %></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-subMenu-left">
+                                <a href="#" class="<%- name === 'wizard_one' || name === 'wizard_two' 
+                                || name === 'wizard_three' || name === 'wizard_four' || name === 'wizard_five' ? 'active':'' %>">
+                                    <span class="nav-icon uil uil-square"></span>
+                                    <span class="menu-text"><%- __('wizard-menu-title') %></span>                                    
+                                </a>
+                                <ul class="subMenu">
+                                    <li>
+                                        <a href="<%- locals.base %>feature/wizard/one/<%- locale %>" class="<%- name === 'wizard_one' ? 'active':'' %>"><%- __('wizard-one') %></a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>feature/wizard/two/<%- locale %>" class="<%- name === 'wizard_two' ? 'active':'' %>"><%- __('wizard-two') %></a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>feature/wizard/three/<%- locale %>" class="<%- name === 'wizard_three' ? 'active':'' %>"><%- __('wizard-three') %></a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>feature/wizard/four/<%- locale %>" class="<%- name === 'wizard_four' ? 'active':'' %>"><%- __('wizard-four') %></a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>feature/wizard/five/<%- locale %>" class="<%- name === 'wizard_five' ? 'active':'' %>"><%- __('wizard-five') %></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-subMenu-left">
+                                <a href="#" class="<%- name === 'base' || name === 'all_articles' || name === 'single_article' ? 'active':'' %>">
+                                    <span class="nav-icon uil uil-window"></span>
+                                    <span class="menu-text"><%- __('knowledge-menu-title') %></span>                                    
+                                </a>
+                                <ul class="subMenu">
+                                    <li>
+                                        <a class="<%- name === 'base' ? 'active':'' %>" href="<%- locals.base %>pages/knowledge/base/<%- locale %>"><%- __('knowledge-base') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'all_articles' ? 'active':'' %>" href="<%- locals.base %>pages/knowledge/all-articles/<%- locale %>"><%- __('knowledge-all-article') %></a>
+                                    </li>
+                    
+                                    <li>
+                                        <a class="<%- name === 'single_article' ? 'active':'' %>" href="<%- locals.base %>pages/knowledge/single-article/<%- locale %>"><%- __('knowledge-single-article') %></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mega-item has-subMenu">
+                        <a href="#" class="<%- name === 'settings' || name === 'changelog' || name === 'gallery_one' || name === 'gallery_two' || name === 'search_result' || name === 'pricing'
+                        || name === 'testimonial' || name === 'faq' || name === 'blank' || name === 'support_center' || name === 'blog_one' || name === 'blog_two' || name === 'blog_tree' || name === 'detail'
+                        || name === 'term_condition' || name === 'maintenance' || name === 'not_found' || name === 'coming_soon'  ? 'active':'' %>">Pages</a>
+                        <ul class="megaMenu-wrapper megaMenu-small">
+                            <li>
+                                <ul>
+                                    <li>
+                                        <a href="<%- locals.base %>changelog/<%- locale %>" class="<%- name === 'changelog' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('changelog-menu-title') %></span>
+                                            <span class="badge badge-info-10 menuItem rounded-pill">1.0.0</span>
+                                        </a>
+                                    </li>                                    
+                                    <li>
+                                        <a href="<%- locals.base %>pages/settings/<%- locale %>" class="<%- name === 'settings' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('setting-menu-title') %></span>
+                                        </a>
+                                    </li>
+                                    <li class="has-subMenu-left">
+                                        <a href="#" class="<%- name === 'gallery_one' || name === 'gallery_two' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('gallery-menu-title') %></span>                                            
+                                        </a>
+                                        <ul class="subMenu">
+                                            <li>
+                                                <a href="<%- locals.base %>pages/gallery/one/<%- locale %>" class="<%- name === 'gallery_one' ? 'active':'' %>"><%- __('gallery-one') %></a>
+                                            </li>
+                                            <li>
+                                                <a href="<%- locals.base %>pages/gallery/two/<%- locale %>" class="<%- name === 'gallery_two' ? 'active':'' %>"><%- __('gallery-two') %></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>pages/pricing/<%- locale %>" class="<%- name === 'pricing' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('pricing-menu-title') %></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>pages/banner/<%- locale %>" class="<%- name === 'banner' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('banner-menu-title') %></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>pages/testimonial/<%- locale %>" class="<%- name === 'testimonial' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('testimonial-menu-title') %></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>pages/faq/<%- locale %>" class="<%- name === 'faq' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('faq-menu-title') %></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>pages/search-result/<%- locale %>" class="<%- name === 'search_result' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('search-menu-title') %></span>
+                                        </a>
+                                    </li> 
+                                    <li>
+                                        <a href="<%- locals.base %>pages/blank/<%- locale %>" class="<%- name === 'blank' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('blank-menu-title') %></span>
+                                        </a>
+                                    </li>                             
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    
+                                    <li>
+                                        <a href="<%- locals.base %>pages/support-center/<%- locale %>" class="<%- name === 'support_center' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('support-menu-title') %></span>
+                                        </a>
+                                    </li>                                    
+                                    
+                                    <li>
+                                        <a href="<%- locals.base %>pages/blog/one/<%- locale %>" class="<%- name === 'blog_one' ? 'active':'' %>"><%- __('blog-style-one') %></a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>pages/blog/two/<%- locale %>" class="<%- name === 'blog_two' ? 'active':'' %>"><%- __('blog-style-two') %></a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>pages/blog/three/<%- locale %>" class="<%- name === 'blog_three' ? 'active':'' %>"><%- __('blog-style-three') %></a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>pages/blog/detail/<%- locale %>" class="<%- name === 'detail' ? 'active':'' %>"><%- __('blog-detail') %></a>
+                                    </li>
+                                        
+                                    
+                                    <li>
+                                        <a href="<%- locals.base %>pages/terms-condition/<%- locale %>" class="<%- name === 'term_condition' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('terms-menu-title') %></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>pages/maintenance/<%- locale %>" class="<%- name === 'maintenance' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('maintenance-menu-title') %></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>pages/404/<%- locale %>" class="<%- name === 'not_found' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('not-found-menu-title') %></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="<%- locals.base %>pages/coming-soon/<%- locale %>" class="<%- name === 'coming_soon' ? 'active':'' %>">
+                                            <span class="menu-text"><%- __('coming-soon-menu-title') %></span>
+                                        </a>
+                                    </li>                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mega-item has-subMenu">                        
+                         <a href="#" class="<%- name === 'alert' || name === 'avatar'|| name === 'badge'
+                         || name === 'breadcrumbs' || name === 'buttons' || name === 'cards' || name === 'carousel'
+                         || name === 'checkbox' || name === 'collapse' || name === 'comments' || name === 'dashboard_base'
+                         || name === 'datepicker' || name === 'drawer' || name === 'drag_drop' || name === 'dropdown'
+                         || name === 'empty' || name === 'grid' || name === 'input' || name === 'list' || name === 'menu'
+                         || name === 'modal' || name === 'notifications' || name === 'page_header' || name === 'pagination'
+                         || name === 'progress' || name === 'radio' || name === 'rate'|| name === 'result' || name === 'select'
+                         || name === 'skeleton' || name === 'slider' || name === 'spinner'
+                         || name === 'statistics' || name === 'steps' || name === 'switch_page' || name === 'tabs'
+                         || name === 'tags' || name === 'timeline' || name === 'timeline2' || name === 'timeline3' 
+                         || name === 'timepicker' || name === 'upload' ?'active':'' %>">Components</a>
+                        <ul class="megaMenu-wrapper megaMenu-wide">
+                            <li>
+                                <span class="mega-title">Components</span>
+                                <ul>
+                                    <li>
+                                        <a class="<%- name === 'alert' ?'active':'' %>" href="<%- locals.base %>ui/alert/<%- locale %>"><%- __('ui-alert') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'avatar' ?'active':'' %>" href="<%- locals.base %>ui/avatar/<%- locale %>"><%- __('ui-avatar') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'badge' ?'active':'' %>" href="<%- locals.base %>ui/badge/<%- locale %>"><%- __('ui-badge') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'breadcrumbs' ?'active':'' %>" href="<%- locals.base %>ui/breadcrumbs/<%- locale %>"><%- __('ui-breadcrumb') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'buttons' ?'active':'' %>" href="<%- locals.base %>ui/buttons/<%- locale %>"><%- __('ui-button') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'cards' ?'active':'' %>" href="<%- locals.base %>ui/cards/<%- locale %>"><%- __('ui-card') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'carousel' ?'active':'' %>" href="<%- locals.base %>ui/carousel/<%- locale %>"><%- __('ui.carousel') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'checkbox' ?'active':'' %>" href="<%- locals.base %>ui/checkbox/<%- locale %>"><%- __('ui-checkbox') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'collapse' ?'active':'' %>" href="<%- locals.base %>ui/collapse/<%- locale %>"><%- __('ui-collapse') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'comments' ?'active':'' %>" href="<%- locals.base %>ui/comments/<%- locale %>"><%- __('ui-comments') %></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="mega-title">Components</span>
+                                <ul>
+                                    <li>
+                                        <a class="<%- name === 'dashboard_base' ?'active':'' %>" href="<%- locals.base %>ui/dashboard-base/<%- locale %>"><%- __('ui-dashboard-base') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'datepicker' ?'active':'' %>" href="<%- locals.base %>ui/datepicker/<%- locale %>"><%- __('ui-date-picker') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'drawer' ?'active':'' %>" href="<%- locals.base %>ui/drawer/<%- locale %>"><%- __('ui-drawer') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'drag_drop' ?'active':'' %>" href="<%- locals.base %>ui/drag-drop/<%- locale %>"><%- __('ui-drag-drop') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'dropdown' ?'active':'' %>" href="<%- locals.base %>ui/dropdown/<%- locale %>"><%- __('ui-dropdown') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'empty' ?'active':'' %>" href="<%- locals.base %>ui/empty/<%- locale %>"><%- __('uii-empty') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'grid' ?'active':'' %>" href="<%- locals.base %>ui/grid/<%- locale %>"><%- __('ui-grid') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'input' ?'active':'' %>" href="<%- locals.base %>ui/input/<%- locale %>"><%- __('ui-input') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'list' ?'active':'' %>" href="<%- locals.base %>ui/list/<%- locale %>"><%- __('ui-list') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'menu' ?'active':'' %>" href="<%- locals.base %>ui/menu/<%- locale %>"><%- __('ui-menu') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'message' ?'active':'' %>" href="<%- locals.base %>ui/message/<%- locale %>"><%- __('ui-message') %></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="mega-title">Components</span>
+                                <ul>
+                                    <li>
+                                        <a class="<%- name === 'modal' ?'active':'' %>" href="<%- locals.base %>ui/modal/<%- locale %>"><%- __('ui-modal') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'notifications' ?'active':'' %>" href="<%- locals.base %>ui/notifications/<%- locale %>"><%- __('ui-notification') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'page_header' ?'active':'' %>" href="<%- locals.base %>ui/page-header/<%- locale %>"><%- __('ui-page-header') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'pagination' ?'active':'' %>" href="<%- locals.base %>ui/pagination/<%- locale %>"><%- __('ui-pagination') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'progress' ?'active':'' %>" href="<%- locals.base %>ui/progress/<%- locale %>"><%- __('ui-progress') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'radio' ?'active':'' %>" href="<%- locals.base %>ui/radio/<%- locale %>"><%- __('ui-radio') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'rate' ?'active':'' %>" href="<%- locals.base %>ui/rate/<%- locale %>"><%- __('ui-rate') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'result' ?'active':'' %>" href="<%- locals.base %>ui/result/<%- locale %>"><%- __('ui-result') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'select' ?'active':'' %>" href="<%- locals.base %>ui/select/<%- locale %>"><%- __('ui-select') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'skeleton' ?'active':'' %>" href="<%- locals.base %>ui/skeleton/<%- locale %>"><%- __('ui-skeleton') %></a>
+                                    </li>                                    
+                                    <li>
+                                        <a class="<%- name === 'timepicker' ?'active':'' %>" href="<%- locals.base %>ui/timepicker/<%- locale %>"><%- __('ui-time-picker') %></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="mega-title">Components</span>
+                                <ul>
+                                    <li>
+                                        <a class="<%- name === 'slider' ?'active':'' %>" href="<%- locals.base %>ui/slider/<%- locale %>"><%- __('ui-slider') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'spinner' ?'active':'' %>" href="<%- locals.base %>ui/spinner/<%- locale %>"><%- __('ui-spinner') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'statistics' ?'active':'' %>" href="<%- locals.base %>ui/statistics/<%- locale %>"><%- __('ui-statistic') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'steps' ?'active':'' %>" href="<%- locals.base %>ui/steps/<%- locale %>"><%- __('ui-step') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'switch_page' ?'active':'' %>" href="<%- locals.base %>ui/switch/<%- locale %>"><%- __('ui-switch') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'tabs' ?'active':'' %>" href="<%- locals.base %>ui/tabs/<%- locale %>"><%- __('ui-tab') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'tags' ?'active':'' %>" href="<%- locals.base %>ui/tags/<%- locale %>"><%- __('ui-tag') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'timeline' ?'active':'' %>" href="<%- locals.base %>ui/timeline/<%- locale %>"><%- __('ui-timeline') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'timeline2' ?'active':'' %>" href="<%- locals.base %>ui/timeline2/<%- locale %>"><%- __('ui-timeline2') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'timeline3' ?'active':'' %>" href="<%- locals.base %>ui/timeline3/<%- locale %>"><%- __('ui-timeline3') %></a>
+                                    </li>
+                                    <li>
+                                        <a class="<%- name === 'upload' ?'active':'' %>" href="<%- locals.base %>ui/upload/<%- locale %>"><%- __('ui-upload') %></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-right">
+        <ul class="navbar-right__menu">
+            <li class="nav-search">
+                <a href="#" class="search-toggle">
+                    <i class="uil uil-search"></i>
+                    <i class="uil uil-times"></i>
+                </a>
+                <form action="/" class="search-form-topMenu">
+                    <span class="search-icon uil uil-search"></span>
+                    <input class="form-control me-sm-2 box-shadow-none" type="search" placeholder="Search..." aria-label="Search">
+                </form>
+            </li>
+            <li class="nav-message">
+                <div class="dropdown-custom">
+                    <a href="javascript:;" class="nav-item-toggle icon-active">
+                        <img class="svg" src="<%- locals.base %>img/svg/message.svg" alt="img">
+                    </a>
+                    <div class="dropdown-wrapper">
+                        <h2 class="dropdown-wrapper__title">Messages <span class="badge-circle badge-success ms-1">2</span></h2>
+                        <ul>
+                            <li class="author-online has-new-message">
+                                <div class="user-avater">
+                                    <img src="<%- locals.base %>img/team-1.png" alt="">
+                                </div>
+                                <div class="user-message">
+                                    <p>
+                                        <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web Design</a>
+                                        <span class="time-posted">3 hrs ago</span>
+
+                                    </p>
+                                    <p>
+                                        <span class="desc text-truncate" style="max-width: 215px;">Lorem ipsum
+                                            dolor amet cosec Lorem ipsum</span>
+                                        <span class="msg-count badge-circle badge-success badge-sm">1</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="author-offline has-new-message">
+                                <div class="user-avater">
+                                    <img src="<%- locals.base %>img/team-1.png" alt="">
+                                </div>
+                                <div class="user-message">
+                                    <p>
+                                        <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web Design</a>
+                                        <span class="time-posted">3 hrs ago</span>
+                                    </p>
+                                    <p>
+                                        <span class="desc text-truncate" style="max-width: 215px;">Lorem ipsum
+                                            dolor amet cosec Lorem ipsum</span>
+                                        <span class="msg-count badge-circle badge-success badge-sm">1</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="author-online has-new-message">
+                                <div class="user-avater">
+                                    <img src="<%- locals.base %>img/team-1.png" alt="">
+                                </div>
+                                <div class="user-message">
+                                    <p>
+                                        <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web Design</a>
+                                        <span class="time-posted">3 hrs ago</span>
+                                    </p>
+                                    <p>
+                                        <span class="desc text-truncate" style="max-width: 215px;">Lorem ipsum
+                                            dolor amet cosec Lorem ipsum</span>
+                                        <span class="msg-count badge-circle badge-success badge-sm">1</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="author-offline">
+                                <div class="user-avater">
+                                    <img src="<%- locals.base %>img/team-1.png" alt="">
+                                </div>
+                                <div class="user-message">
+                                    <p>
+                                        <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web Design</a>
+                                        <span class="time-posted">3 hrs ago</span>
+                                    </p>
+                                    <p>
+                                        <span class="desc text-truncate" style="max-width: 215px;">Lorem ipsum
+                                            dolor amet cosec Lorem ipsum</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="author-offline">
+                                <div class="user-avater">
+                                    <img src="<%- locals.base %>img/team-1.png" alt="">
+                                </div>
+                                <div class="user-message">
+                                    <p>
+                                        <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web Design</a>
+                                        <span class="time-posted">3 hrs ago</span>
+                                    </p>
+                                    <p>
+                                        <span class="desc text-truncate" style="max-width: 215px;">Lorem ipsum
+                                            dolor amet cosec Lorem ipsum</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="" class="dropdown-wrapper__more">See All Message</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-notification">
+                <div class="dropdown-custom">
+                    <a href="javascript:;" class="nav-item-toggle icon-active">
+                        <img class="svg" src="<%- locals.base %>img/svg/alarm.svg" alt="img">
+                    </a>
+                    <div class="dropdown-wrapper">
+                        <h2 class="dropdown-wrapper__title">Notifications <span class="badge-circle badge-warning ms-1">4</span></h2>
+                        <ul>
+                            <li class="nav-notification__single nav-notification__single--unread d-flex flex-wrap">
+                                <div class="nav-notification__type nav-notification__type--primary">
+                                    <img class="svg" src="<%- locals.base %>img/svg/inbox.svg" alt="inbox">
+                                </div>
+                                <div class="nav-notification__details">
+                                    <p>
+                                        <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                                        <span>sent you a message</span>
+                                    </p>
+                                    <p>
+                                        <span class="time-posted">5 hours ago</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="nav-notification__single nav-notification__single--unread d-flex flex-wrap">
+                                <div class="nav-notification__type nav-notification__type--secondary">
+                                    <img class="svg" src="<%- locals.base %>img/svg/upload.svg" alt="upload">
+                                </div>
+                                <div class="nav-notification__details">
+                                    <p>
+                                        <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                                        <span>sent you a message</span>
+                                    </p>
+                                    <p>
+                                        <span class="time-posted">5 hours ago</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="nav-notification__single nav-notification__single--unread d-flex flex-wrap">
+                                <div class="nav-notification__type nav-notification__type--success">
+                                    <img class="svg" src="<%- locals.base %>img/svg/log-in.svg" alt="log-in">
+                                </div>
+                                <div class="nav-notification__details">
+                                    <p>
+                                        <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                                        <span>sent you a message</span>
+                                    </p>
+                                    <p>
+                                        <span class="time-posted">5 hours ago</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="nav-notification__single nav-notification__single d-flex flex-wrap">
+                                <div class="nav-notification__type nav-notification__type--info">
+                                    <img class="svg" src="<%- locals.base %>img/svg/at-sign.svg" alt="at-sign">
+                                </div>
+                                <div class="nav-notification__details">
+                                    <p>
+                                        <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                                        <span>sent you a message</span>
+                                    </p>
+                                    <p>
+                                        <span class="time-posted">5 hours ago</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="nav-notification__single nav-notification__single d-flex flex-wrap">
+                                <div class="nav-notification__type nav-notification__type--danger">
+                                    <img src="<%- locals.base %>img/svg/heart.svg" alt="heart" class="svg">
+                                </div>
+                                <div class="nav-notification__details">
+                                    <p>
+                                        <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                                        <span>sent you a message</span>
+                                    </p>
+                                    <p>
+                                        <span class="time-posted">5 hours ago</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="" class="dropdown-wrapper__more">See all incoming activity</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-settings">
+                <div class="dropdown-custom">
+                    <a href="javascript:;" class="nav-item-toggle">
+                        <img src="<%- locals.base %>img/setting.png" alt="img" class="svg">
+                    </a>
+                    <div class="dropdown-wrapper dropdown-wrapper--large">
+                        <ul class="list-settings">
+                            <li class="d-flex">
+                                <div class="me-3"><img src="<%- locals.base %>img/mail.png" alt=""></div>
+                                <div class="flex-grow-1">
+                                    <h6>
+                                        <a href="" class="stretched-link">All Features</a>
+                                    </h6>
+                                    <p>Introducing Increment subscriptions </p>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="me-3"><img src="<%- locals.base %>img/color-palette.png" alt=""></div>
+                                <div class="flex-grow-1">
+                                    <h6>
+                                        <a href="" class="stretched-link">Themes</a>
+                                    </h6>
+                                    <p>Third party themes that are compatible</p>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="me-3"><img src="<%- locals.base %>img/home.png" alt=""></div>
+                                <div class="flex-grow-1">
+                                    <h6>
+                                        <a href="" class="stretched-link">Payments</a>
+                                    </h6>
+                                    <p>We handle billions of dollars</p>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="me-3"><img src="<%- locals.base %>img/video-camera.png" alt=""></div>
+                                <div class="flex-grow-1">
+                                    <h6>
+                                        <a href="" class="stretched-link">Design Mockups</a>
+                                    </h6>
+                                    <p>Share planning visuals with clients</p>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="me-3"><img src="<%- locals.base %>img/document.png" alt=""></div>
+                                <div class="flex-grow-1">
+                                    <h6>
+                                        <a href="" class="stretched-link">Content Planner</a>
+                                    </h6>
+                                    <p>Centralize content gethering and editing</p>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="me-3"><img src="<%- locals.base %>img/microphone.png" alt=""></div>
+                                <div class="flex-grow-1">
+                                    <h6>
+                                        <a href="" class="stretched-link">Diagram Maker</a>
+                                    </h6>
+                                    <p>Plan user flows & test scenarios</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-flag-select">
+                <div class="dropdown-custom">
+                    <% switch (locale) {
+                        case 'en' : %>
+                            <a href="javascript:;" class="nav-item-toggle"><img src="<%- locals.base %>img/eng.png" alt="" class="rounded-circle"></a>
+                            <% break;                        
+                        case 'gr' : %>
+                            <a href="javascript:;" class="nav-item-toggle"><img src="<%- locals.base %>img/ger.png" alt="" class="rounded-circle"></a>
+                            <% break;                        
+                        case 'ar' : %>
+                            <a href="javascript:;" class="nav-item-toggle"><img src="<%- locals.base %>img/iraq.png" alt="" class="rounded-circle"></a>
+                            <% break;
+                        default : %>
+                            <a href="javascript:;" class="nav-item-toggle"><img src="<%- locals.base %>img/eng.png" alt="" class="rounded-circle"></a>
+                            <% break;
+                        
+                    } %>
+                    <div class="dropdown-wrapper dropdown-wrapper--small">
+                        <a href="<%- currentRoute + '/en' %>"><img src="<%- locals.base %>img/eng.png" alt=""> English</a>
+                        <a href="<%- currentRoute + '/gr' %>"><img src="<%- locals.base %>img/ger.png" alt=""> German</a>
+                        <a href="<%- currentRoute + '/ar' %>"><img src="<%- locals.base %>img/iraq.png" alt=""> Arabic</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-author">
+                <div class="dropdown-custom">
+                    <a href="javascript:;" class="nav-item-toggle"><img src="<%- locals.base %>img/author-nav.jpg" alt="" class="rounded-circle">
+                        <span class="nav-item__title"><%- session.name %><i class="las la-angle-down nav-item__arrow"></i></span>
+                    </a>
+                    <div class="dropdown-wrapper">
+                        <div class="nav-author__info">
+                            <div class="author-img">
+                                <img src="<%- locals.base %>img/author-nav.jpg" alt="" class="rounded-circle">
+                            </div>
+                            <div>
+                                <h6> <%- session.name %></h6>
+                                <span>UI Designer</span>
+                            </div>
+                        </div>
+                        <div class="nav-author__options">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <i class="uil uil-user"></i> Profile</a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="uil uil-setting"></i> Settings</a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="uil uil-key-skeleton"></i> Billing</a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="uil uil-users-alt"></i> Activity</a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="uil uil-bell"></i> Help</a>
+                                </li>
+                            </ul>
+                            <a href="" onclick="                                   
+                                event.preventDefault()
+                                document.getElementById('logout').submit()" class="nav-author__signout">
+                                <i class="uil uil-sign-out-alt"></i> Sign Out</a>
+                                <form style="display:none;" id="logout" action="<%- locals.base %>logout" method="POST">
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="navbar-right__mobileAction d-md-none">
+            <a href="#" class="btn-search">
+                <img src="<%- locals.base %>img/svg/search.svg" alt="search" class="svg feather-search">
+                <img src="<%- locals.base %>img/svg/x.svg" alt="x" class="svg feather-x"></a>
+            <a href="#" class="btn-author-action">
+                <img class="svg" src="<%- locals.base %>img/svg/more-vertical.svg" alt="more-vertical"></a>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,52 @@
+<div class="crm mb-25">
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-lg-12">
+                <div class="breadcrumb-main">
+                    <h4 class="text-capitalize breadcrumb-title"><%- __('dashboard_page_title') %></h4>
+                    <div class="breadcrumb-action justify-content-center flex-wrap">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#"><i class="las la-home"></i><%- __('dashboard_page_title') %></a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><%- __('demo_one_page_title') %></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-sm-6  col-ssm-12 mb-25">
+                <%- include('../../components/dashboard/demo_one/total_products') %>
+            </div>
+            <div class="col-xxl-3 col-sm-6  col-ssm-12 mb-25">
+                <%- include('../../components/dashboard/demo_one/total_orders') %>                
+            </div>
+            <div class="col-xxl-3 col-sm-6  col-ssm-12 mb-25">
+                <%- include('../../components/dashboard/demo_one/total_sales') %>                
+            </div>
+            <div class="col-xxl-3 col-sm-6  col-ssm-12 mb-25">
+                <%- include('../../components/dashboard/demo_one/new_customers') %>                
+            </div>
+            <div class="col-xxl-4 col-lg-6 mb-25">
+                <%- include('../../components/dashboard/demo_six/total_sales_graph') %>                
+            </div>
+            <div class="col-xxl-4 col-lg-6 mb-25">
+                <%- include('../../components/dashboard/demo_six/total_sales_orders') %>                
+            </div>
+            <div class="col-xxl-4 mb-25">
+                <%- include('../../components/dashboard/demo_six/total_subscriber_graph') %>                
+            </div>
+            <div class="col-xxl-4 mb-25">
+                <%- include('../../components/dashboard/demo_six/sales_overview_graph') %>                
+            </div>
+            <div class="col-xxl-8 mb-25">
+                <%- include('../../components/dashboard/demo_one/sales_by_location') %>                
+            </div>
+            <div class="col-xxl-6 col-lg-6 mb-25">
+                <%- include('../../components/dashboard/demo_one/top_selling_products') %>                
+            </div>
+            <div class="col-xxl-6 col-lg-6 mb-25">
+                <%- include('../../components/dashboard/demo_one/browser_states') %>
+            </div>
+        </div>
+    </div>
+</div>

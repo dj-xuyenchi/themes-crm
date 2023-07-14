@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /hexadash-vue-doc/
+    RewriteRule ^/hexadash-vue-doc/index\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /hexadash-vue-doc/index.html [L]
+    Header set Cache-Control "max-age=0,no-store"
+</IfModule>

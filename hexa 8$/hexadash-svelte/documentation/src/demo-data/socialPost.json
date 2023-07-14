@@ -1,0 +1,58 @@
+[
+    {
+        "postId": 1,
+        "from": "Alex Kerry",
+        "time": "12 mins ago",
+        "img": ["post-image.png"],
+        "author": "1.jpg",
+        "text": "Nam malesuada dolor tellus pretium amet was hendrerit facilisi  tempor quis enim sed ornare there suspendisse sed orci neque ac sed aliquet risus faucibus in pretium molestee.",
+        "like": 231,
+        "comment": []
+    },
+    {
+        "postId": 2,
+        "from": "Tim Pain",
+        "time": "25 mins ago",
+        "img": [],
+        "author": "2.jpg",
+        "text": "Nam malesuada dolor tellus pretium amet was hendrerit facilisi  tempor quis enim sed ornare there suspendisse sed orci neque ac sed aliquet risus faucibus in pretium molestee.",
+        "like": 341,
+        "comment": []
+    },
+    {
+        "postId": 3,
+        "from": "Oliver Kan",
+        "time": "20 mins ago",
+        "img": [
+            "506.png",
+            "907.png",
+            "brightland_3744.png",
+            "room.png",
+            "165.png"
+        ],
+        "author": "3.jpg",
+        "text": "",
+        "like": 143,
+        "comment": [
+            {
+            "time": "5 mins ago",
+            "from": "Alexender Arnold",
+            "author": "4.jpg",
+            "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "reply": [
+                {
+                    "time": "5 mins ago",
+                    "from": "Oliver Kan",
+                    "author": "3.jpg",
+                    "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                }
+            ]
+        },
+        {
+            "time": "34 mins ago",
+            "from": "Alex Kerry",
+            "author": "1.jpg",
+            "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        }]
+    }
+]
